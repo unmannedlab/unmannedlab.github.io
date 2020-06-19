@@ -12,8 +12,12 @@ linkedin: https://www.linkedin.com/in/jacobhartzer/
 
 # About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+My name is Jacob Hartzer, and I am a Mechanical Engineering Masters of Science Student. I am originally from Austin, Texas, and also attended Texas A&M for my undergraduate in Mechanical Engineering. 
+
+My background interests were originally in controls and dynamics, which has slowly led me to  estimation and filtering. My professional and research experience has also given me avenues to use coding skills to apply these interests to real-wrold problems
 
 # Current Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Currently, I am researching collaborative localization techniques for networks of autonomous vehicles. My goal is to leverage the large number of vehicles within sensor range to increase localization accuracies of the network. I am currently simulating Ultra Wideband (UWB) ranging modules to provide vehicle-to-vehicle measurements which, when combined, can reduce the overall uncertainty in the network. 
+
+I am also interested in determining how these UWB ranging modules can be used to aid in GPS-denied environments, such as indoor-to-outdoor transition sites, or in collaborative situations between ground and air vehicles.

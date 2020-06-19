@@ -12,7 +12,7 @@ The Unmanned Systems Lab was founded in 2017 at the Department of Mechanical Eng
 <figure>
 <img style="float: right; margin: 15px;" src="/assets/images/about/LAB.jpg" alt="Lab Door view from Outside" width="350"/>
 </figure>### Location
-We are currently located in [JCAIN building](https://aggiemap.tamu.edu/?bldg=0391) on the first floor in Room 101? 
+We are currently located in [JCAIN building](https://aggiemap.tamu.edu/?bldg=0391) on the first floor in Room 101. 
 
 
 ### Research Themes

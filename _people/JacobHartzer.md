@@ -3,7 +3,7 @@ layout: profile
 title: Jacob Hartzer
 image: jacob.jpeg
 type: M.S.
-show_profile: false
+show_profile: true
 homepage: https://jhartzer.github.io/
 github : https://github.com/JHartzer
 g_scholar: https://scholar.google.com/citations?hl=en&user=3xLpxGMAAAAJ

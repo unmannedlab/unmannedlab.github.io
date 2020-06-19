@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<style>
+
+  figure {
+    float: right;
+    padding: 15px;
+  }
+  figure img {
+    vertical-align: top;
+  }
+  figure figcaption {
+    text-align: right;
+  }
+
+</style>
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <br>
+  <figure>
+    <img src="/people/images/{{page.image}}"/>
+    <figcaption>
+      {% if page.g_scholar %}
+        <a href="{{page.g_scholar}}"> Google Scholar</a> <i class="fa fa-google"></i> <br>
+      {% endif %}
+      {% if page.homepage %}
+        <a href="{{page.homepage}}"> Personal Site</a> <i class="fa fa-globe"></i> <br>
+      {% endif %}
+      {% if page.linkedin %}
+        <a href="{{page.linkedin}}"> LinkedIn</a> <i class="fa fa-linkedin-square"></i> <br>
+      {% endif %}
+      {% if page.github %}
+        <a href="{{page.github}}"> GitHub</a> <i class="fa fa-github"></i> <br>
+      {% endif %}
+    </figcaption>
+  </figure>
+  <article class="post-content">
+    {{ content }}
+  </article>
+  <body>
+    {% assign authored = false %}
+    {% for sitePage in site.posts %}
+      {% if sitePage.title %}
+        {% if sitePage.author == page.title %}
+          {% assign authored = true %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% if authored %}
+      <h1>Posts </h1>
+    {% endif %}
+    {% for sitePage in site.posts %}
+      {% if sitePage.title %}
+        {% if sitePage.author == page.title %}
+          <p> <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a> </p>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </body>
+</div>

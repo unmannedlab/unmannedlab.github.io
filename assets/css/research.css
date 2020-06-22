@@ -1,0 +1,104 @@
+.listpost, .article-page {
+    background-color: #E1E1E1;
+}
+
+
+.listpost {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    min-height: 11rem;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+}
+
+.listpost:hover {
+    -webkit-transform: translate(0px, -2px);
+        -ms-transform: translate(0px, -2px);
+            transform: translate(0px, -2px);
+    -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+            box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+}
+
+.listpost .listpost-thumbnail {
+    width: 30%;
+    max-width: 100%;
+    min-height: 11rem;
+    -webkit-background-size: cover;
+            background-size: cover;
+    background-position: 50% 50%;
+}
+
+.listpost .listpost-content {
+    padding: 1rem;
+    width: 70%;
+}
+
+.listpost .listpost-content .listpost-date,
+.listpost .listpost-content .listpost-words {
+    font-size: 12px;
+}
+
+.listpost .listpost-content .listpost-title {
+    margin: 0 0 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.listpost .listpost-content .listpost-title a {
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    color: #263959;
+}
+
+.listpost .listpost-content p {
+    margin-top: 0;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .content-box {
+      padding: 10px;
+    }
+    .listpost {
+      width: 98%;
+      max-width: 100%;
+      margin: 2%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .listpost .listpost-thumbnail {
+      width: 100%;
+    }
+    .listpost .listpost-content {
+      width: 100%;
+    }
+    .listpost .listpost-content .listpost-title {
+      margin: 0 0 5px;
+    }
+    .listpost .listpost-content .listpost-title a {
+      font-size: 21px;
+    }
+  }

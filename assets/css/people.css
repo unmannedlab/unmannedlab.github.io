@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: border-box;
+}
+
+figure {
+    display: inline-block;
+    vertical-align: top;
+    margin: 60px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+    width: 200px;
+    /* height: 200px; */
+}
+figure figcaption {
+    display: table;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+
+.person {
+    background-color: #E1E1E1;
+    width: 200px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+}
+
+.person:hover {
+    -webkit-transform: translate(0px, -2px);
+        -ms-transform: translate(0px, -2px);
+            transform: translate(0px, -2px);
+    -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+            box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+}
+
+.person .person-thumbnail {
+    min-height: 200px;
+    min-width: 200px;
+    -webkit-background-size: cover;
+            background-size: cover;
+    background-position: 50% 00%;
+    background-repeat: no-repeat;
+}
+
+.person .person-title .person-name {
+    font-family: 'PT Serif', serif;
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align:center;
+}
+
+.person .person-title .person-name a {
+    text-decoration: none;
+    margin:auto;
+}
+
+.person .person-title p {
+    font-size: 16px;
+    margin-top: 0;
+    margin:auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+

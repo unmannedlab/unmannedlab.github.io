@@ -4,92 +4,73 @@ title: People
 permalink: /people/
 ---
 
-<style>
-    * {
-      box-sizing: border-box;
-    }
-
-    figure {
-        display: inline-block;
-        vertical-align: top;
-        margin: 60px; /* adjust as needed */
-    }
-    figure img {
-        vertical-align: top;
-        width: 200px;
-        /* height: 200px; */
-    }
-    figure figcaption {
-        display: table;
-        width: 200px;
-        text-align: center;
-        font-size: 18px;
-        line-height: 1.5;
-        font-weight: 200;
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="/assets/css/people.css">
 
 
 # Principal Investigator
 
-<figure>
-    <a href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html">
-        <img src="images/sri2.jpeg" alt='missing' /> 
-    </a> 
-    <figcaption>
-        <a href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html"> Srikanth Saripalli </a><br>
-    </figcaption>
-</figure>
+
+ <div class="flex-container">
+    <div class="person">
+        <a class="person-thumbnail" style="background-image: url(images/sri2.jpeg); min-height: 260px;" href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html"></a>
+        <div class="person-title">
+            <h2 class="person-name"><a href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html">Dr. Srikanth Saripalli</a></h2>
+            <p>Associate Professor</p>
+        </div>
+    </div>
+</div> 
+
 
 # Graduate Students
 
 
+<div class="flex-container">
 {% for people in site.people %}
-{% if people.type == "PhD" %}
-<figure>
-    {% if people.show_profile %}
-        <a href="{{people.url}}">
-            <img src="images/{{people.image}}" alt='missing' /> 
-        </a> 
-        <figcaption>
-            <a href="{{people.url}}"> {{people.title}}</a><br>
-            {{people.type}} Candidate
-    </figcaption>
-    {% else %}
-        <img src="images/{{people.image}}" alt='missing' /> 
-            <figcaption>
-                 {{people.title}}<br>
-                {{people.type}} Candidate
-            </figcaption>
+    {% if people.type == "PhD" %}
+        {% if people.show_profile %}
+        <div class="person">
+            <a class="person-thumbnail" style="background-image: url(images/{{people.image}});" href="{{people.url}}"></a>
+            <div class="person-title">
+                <h2 class="person-name"><a href="{{people.url}}">{{people.title}}</a></h2>
+                <p>{{people.type}} Candidate</p>
+            </div>
+        </div>
+        {% else %}
+        <div class="person">
+            <img src="images/{{people.image}}" class="person-thumbnail">
+            <div class="person-title">
+                <h2 class="person-name">{{people.title}}</h2>
+                <p>{{people.type}} Candidate</p>
+            </div>
+        </div>
+        {% endif %}
     {% endif %}
-
-
-</figure>
-{% endif %}
 {% endfor %}
+</div>
 
 
+<div class="flex-container">
 {% for people in site.people %}
-{% if people.type == "M.S." %}
-<figure>
-    {% if people.show_profile %}
-        <a href="{{people.url}}">
-            <img src="images/{{people.image}}" alt='missing' /> 
-        </a> 
-        <figcaption>
-            <a href="{{people.url}}"> {{people.title}}</a><br>
-            {{people.type}} Candidate
-    </figcaption>
-    {% else %}
-        <img src="images/{{people.image}}" alt='missing' /> 
-            <figcaption>
-                 {{people.title}}<br>
-                {{people.type}} Candidate
-            </figcaption>
+    {% if people.type == "M.S." %}
+        {% if people.show_profile %}
+        <div class="person">
+            <a class="person-thumbnail" style="background-image: url(images/{{people.image}});" href="{{people.url}}"></a>
+            <div class="person-title">
+                <h2 class="person-name"><a href="{{people.url}}">{{people.title}}</a></h2>
+                <p>{{people.type}} Candidate</p>
+            </div>
+        </div>
+        {% else %}
+        <div class="person">
+            <img src="images/{{people.image}}" class="person-thumbnail">
+            <div class="person-title">
+                <h2 class="person-name">{{people.title}}</h2>
+                <p>{{people.type}} Candidate</p>
+            </div>
+        </div>
+        {% endif %}
     {% endif %}
-</figure>
-{% endif %}
 {% endfor %}
-
+</div>
 
 <h1><a href="/alumni"> Alumni & Former Students </a></h1>

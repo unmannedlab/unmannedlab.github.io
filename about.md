@@ -23,4 +23,3 @@ We are currently located in [JCAIN building](https://aggiemap.tamu.edu/?bldg=039
 -     **Obstacle Avoidance, Mapping and Navigation:** The focus is on developing algorithms for obstacle avoidance based on computer vision for ground, fixed wing and rotary aerial vehicles
 -     **Autonomous Landing on Moving Targets:** This work deals with the design and implementation of a real-time, vision-based landing algorithm for an autonomous helicopter. 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScgY5OVr3tjabytlzM4zorEJigJsUmWEpLbIFAUlFsOldVOkw/viewform?embedded=true" width="640" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

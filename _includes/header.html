@@ -6,14 +6,10 @@
 		<br>
 		<div class="nav">
 			<span class="exclamationMark">
-				{% for sitePage in site.pages %}
-					{% if sitePage.title %}
-						{% unless sitePage.show_in_nav == false %}
-							<li><a class="page-link"
-							href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a></li>
-						{% endunless %}
-					{% endif %}
-				{% endfor %}
+				<li><a class="page-link" href="{{ site.baseurl }}/about">about</a></li>
+				<li><a class="page-link" href="{{ site.baseurl }}/people">people</a></li>
+				<li><a class="page-link" href="{{ site.baseurl }}/research">research</a></li>
+				<li><a class="page-link" href="{{ site.baseurl }}/contact">contact</a></li>
 			</span>			
 		</div>		
 	</div>

@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<style>
+    img{
+        float: left;
+        margin: auto;
+        max-width:90%;
+        padding: 15px;
+    }
+</style>
+
 <h1>Overview</h1>
 <p> 
     Our research focuses on Mapping, Localization, Guidance, Navigation and Control for developing autonomous ground and aerial vehicles. 
@@ -10,20 +19,33 @@ layout: default
     We are currently deploying autonomous shuttles on campus, self-driving cars, trucks and Unmanned Aerial Vehicles (UAVs).
 </p>
 
-<figure>
-<img style="float: left; margin: 15px;" src="/assets/images/frontpage/autonomous-shuttle-downntown.jpg" alt="Lab Door view from Outside" width="350"/>
-</figure><figure>
-<img style="float: left; margin: 15px;" src="/assets/images/frontpage/warthog2.jpg" alt="Lab Door view from Outside" width="350"/>
-</figure>
-<figure>
-<img style="float: left; margin: 15px;" src="/assets/images/frontpage/autonomous-truck.jpg" alt="Lab Door view from Outside" width="350"/>
-</figure>
+<div>
+    <figure>
+        <img src="/assets/images/frontpage/autonomous-shuttle-downntown.jpg" alt="Autonomous Shuttle Downntown" width="350"/>
+    </figure>
+</div>
 
-<br>
-<figure>
-<img style="float: left; margin: 15px;" src="/assets/images/frontpage/collaborative-UAS.jpg" alt="Lab Door view from Outside" width="350"/>
-</figure>
+<div>
+    <figure>
+        <img src="/assets/images/frontpage/warthog2.jpg" alt="Warthog" width="350"/>
+    </figure>
+</div>
 
-<figure>
-<img style="float: left; margin: 15px;" src="/assets/images/frontpage/autonomous-ranger.jpg" alt="Lab Door view from Outside" width="350"/>
-</figure>
+<div>
+    <figure>
+        <img src="/assets/images/frontpage/autonomous-truck.jpg" alt="Autonomous Truck" width="350"/>
+    </figure>
+</div>
+
+<div>
+    <figure>
+        <img src="/assets/images/frontpage/collaborative-UAS.jpg" alt="Collaborative UAS" width="350"/>
+    </figure>
+</div>
+
+<div>
+    <figure>
+        <img src="/assets/images/frontpage/autonomous-ranger.jpg" alt="Autonomous Ranger" width="350"/>
+    </figure>
+</div>
+

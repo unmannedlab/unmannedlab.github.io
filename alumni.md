@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Alumni
-permalink: /alumni/
-show_in_nav: false
 ---
 
 

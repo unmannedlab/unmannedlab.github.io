@@ -45,7 +45,7 @@ layout: default
   </article>
   <body>
     {% assign authored = false %}
-    {% for sitePage in site.posts %}
+    {% for sitePage in site.research %}
       {% if sitePage.title %}
         {% if sitePage.author == page.title %}
           {% assign authored = true %}
@@ -55,7 +55,7 @@ layout: default
     {% if authored %}
       <h1>Posts </h1>
     {% endif %}
-    {% for sitePage in site.posts %}
+    {% for sitePage in site.research %}
       {% if sitePage.title %}
         {% if sitePage.author == page.title %}
           <p> <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a> </p>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Autonomous Shuttle
-author: 
+author: Garrison Neel
 thumbnail: /assets/images/auto_shuttle/shuttle0.jpg
 ---
 
@@ -13,12 +13,12 @@ Currently, we have a Velodyne VLP-16 Lidar, Novatel SPAN IGM-A1 GPS/IMU, and a Z
 
 Our goal for this platform is to evaluate novel control technologies for self driving vehicles. Because of the interchangeability offered by ROS, we plan to implement several variations each of localization, obstacle avoidance, and path planning. We will compare these methods objectively through data collection and analysis, and subjectively to evaluate human interaction and perception.
 
-![](/assets/images/auto_shuttle/shuttle1.jpg)
+![](/assets/images/auto_shuttle/shuttle1.png)
 
 The shuttle is equipped with a Novatel SPAN GPS/IMU which is capable of positional accuracy of under 5 cm globally. This highly accurate GPS allows us to accurately evaluate new localization methods such as SLAM or various sensor fusion methods. Evaluating localization methods allows down-selection to cheaper yet tolerably-accurate solutions to be implemented on future vehicles.
 campus map
 
-![](/assets/images/auto_shuttle/shuttle2.jpg)
+![](/assets/images/auto_shuttle/shuttle2.png)
 
 
 In order to test path planning, and obstacle detection and avoidance, we have permission to test on campus at Texas A&M. This allows for both closed-course testing and also testing in real-world scenarios. Our campus has predictable but large fluctuations in vehicular and pedestrian traffic, allowing for testing in a wide range of conditions. Nearby facilities have also partnered with our lab to allow testing and evaluation on-site. One example is the Stella Hotel in Bryan, TX where we will be providing shuttle service in July..

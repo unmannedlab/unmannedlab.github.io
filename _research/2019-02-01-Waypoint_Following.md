@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  1/10th scale waypoint following
-author: 
+author: Tim Overbye
 thumbnail: /assets/images/other/waypoint_following.jpg
 ---
 

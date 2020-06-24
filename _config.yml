@@ -59,9 +59,9 @@ collections:
   people:
     output: true
     permalink: /people/:path/
-  # research:
-  #   output: true
-  #   permalink: /research/:path/
+  research:
+    output: true
+    permalink: /research/:title
 
 defaults:
   - 

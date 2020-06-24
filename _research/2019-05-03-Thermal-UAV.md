@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Thermal vision for UAVs
-author: 
+author: Keith Sponsler
 thumbnail: /assets/images/other/uav_thermal.jpg
 ---
 

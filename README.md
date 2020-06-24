@@ -6,19 +6,19 @@
 In general, you will be updating items in the following directories:
 ```
 UNMANNEDLAB.GITHUB.IO
-└───research/ 
+└───_people/
+    └───YourName.md
+    └───images/
+        └───YourName.jpeg
+└───_research/ 
     └───_posts/
         └───2020-01-01-Name-of-Research-Post1.md
         └───2020-01-01-Name-of-Research-Post2.md
-    assets/
+└───assets/
     └───images/
         └───post_folder/
             └───ResearchImage1.png
             └───ResearchImage2.jpg
-    _people/
-    └───YourName.md
-    └───images/
-        └───YourName.jpeg
 ```
 
 In general, you should only be editing the `_research` and `_people` folder. Both of these folders are markdown, which means you can edit it in and text editor easily. 

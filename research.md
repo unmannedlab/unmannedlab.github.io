@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-{%assign sorted = (site.research | sort: 'date' | reverse)%}
+{% assign sorted = site.research | sort: 'date' | reverse %}
 {%for post in sorted %}
 <article class="listpost">
   {% if post.thumbnail %}

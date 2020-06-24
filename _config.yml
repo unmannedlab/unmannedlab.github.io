@@ -31,10 +31,6 @@ url: "https://unmannedlab.github.io/" # the base hostname & protocol for your si
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-
-paginate: 5
-paginate_path: '/research/:num/'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

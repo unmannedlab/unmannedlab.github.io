@@ -63,13 +63,15 @@ Lorem ipsum
 
 # Research
 
-You probably don't have your research yet on the webpage. You can simply add it by following one of the current research's template. 
+You probably don't have your research yet on the webpage. You can simply add it by following one of the current research's template.
 
 ## Guidelines
 
 To add a research post, create a markdown file in `research/_posts/` following the convention 'YYYY-MM-DD-Name-of-Post.md'. 
 
 Add images to `assets/images/Your_Folder/Image_file.png`. You can use a thumbnail for your post in addition to other pictures within the markdown file of your post. 
+
+👮 **Note** Your research can either be an excerpt, or a full post. If your research is more than 75 words, then it is automatically converted from a excerpt to a full post. 
 
 
 ## Markdown File
@@ -89,7 +91,7 @@ thumbnail: /assets/images/lidar/sign_detection_leadin.png
 One required ability for autonomous vehicles is to correctly identify street signs. This project investigates the feasibility of using a LIDAR sensor to detect, and classify signs for autonomous vehicles. Current popular methods for sign detection are vision based, however, in case of low visibility, a LIDAR detection method can be used instead.
 ```
 
-You should at a minimum have a thumbnail, and an excerpt of your research. 
+👮 **Note** You should at a minimum have a thumbnail, and an excerpt of your research. 
 
 
 # Checks before commiting

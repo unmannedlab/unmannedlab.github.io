@@ -3,7 +3,8 @@ layout: profile
 title: Akhil Nagariya
 image: akhil.jpeg
 type: PhD
-show_profile: false
+show_profile: true
+redirect_to: http://people.tamu.edu/~akhil.nagariya/index.html
 homepage: 
 github : 
 g_scholar: 

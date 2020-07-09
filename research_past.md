@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-{% assign sorted = site.research | sort: 'date' | reverse %}
+{% assign sorted = site.research_past | sort: 'date' | reverse %}
 {%for post in sorted %}
 <article class="listpost" href="{{post.url | prepend: site.baseurl}}">
   {% assign wordcount = post.content | number_of_words %}
@@ -28,4 +28,3 @@ title: Research
 </article>
 {% endfor %}
 
-<h1><a href="/research_past"> Past Research Projects </a></h1>

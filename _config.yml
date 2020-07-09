@@ -59,6 +59,9 @@ collections:
   research:
     output: true
     permalink: /research/:title
+  research_past:
+    output: true
+    permalink: /research_past/:title
 
 defaults:
   - 

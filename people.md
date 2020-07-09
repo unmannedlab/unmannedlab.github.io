@@ -7,7 +7,7 @@ permalink: /people/
 <link rel="stylesheet" type="text/css" href="/assets/css/people.css">
 
 
-# Principal Investigator
+# Faculty
 
 
  <div class="flex-container">

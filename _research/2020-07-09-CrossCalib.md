@@ -5,7 +5,7 @@ author: Subodh Mishra
 thumbnail: /assets/images/crosscalib/warthog.png
 ---
 
-Cross calibration of multiple sensors is a classic estimation problem in robotics and with the advent of multi-sensor perception and state estimation techniques, this problem has gained paramount importance. We at USL are working on both targetbased and targetless approaches of multi sensor calibration. Having already studied and implemented a few targetbased approaches we are currently exploring targetless aproaches which can be used when the robot is operating in real-time.
+Cross calibration of multiple sensors is a classic estimation problem in robotics and with the advent of multi-sensor perception and state estimation techniques, this problem has gained paramount importance. We at USL are working on both targetbased and targetless approaches of multi sensor calibration. Having already studied and implemented a few targetbased approaches we are currently exploring targetless aproaches which can be used when the robot is operating in real-time. The long term goal is to integrate a targetless motion based approach into a multi-sensor SLAM pipeline which allows tracking the calibration data online and detects changes which might occur during operation, thus ensuring robustness, miscalibration detection and recalibration.
 
 ![cone](/assets/images/crosscalib/calibresult.png)
 

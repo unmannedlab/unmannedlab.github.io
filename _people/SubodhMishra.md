@@ -12,7 +12,7 @@ linkedin: https://www.linkedin.com/in/subodh-mishra/
 
 # About Me
 
-I am a 4th year PhD student at Texas A&M. I am interested in classical problems in robotics like state estimation, mapping and localization, sensor calibration, etc. In my down time I love reading books, playing badminton and biking.
+I am a 4th year PhD student at Texas A&M. I am interested in classical problems in robotics like state estimation, mapping and localization, sensor calibration, etc. 
 
 # Current Research
 

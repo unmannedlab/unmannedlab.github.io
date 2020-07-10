@@ -11,6 +11,7 @@ Cross calibration of multiple sensors is a classic estimation problem in robotic
 
 
 Here are our recent research papers on targetbased calibration of cameras and lidars.
+
 **Related Papers**
 
 * **Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration**, S. Mishra, P. Osteen, G. Pandey and S. Saripalli, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS, 2020), [pdf](https://arxiv.org/abs/2007.01959)

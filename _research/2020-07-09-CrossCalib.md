@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cross Calibration of Multiple-Sensors"
+title:  "Extrinsic Calibration of Multiple Sensors"
 author: Subodh Mishra
 thumbnail: /assets/images/crosscalib/warthog.png
 ---
@@ -9,8 +9,8 @@ Cross calibration of multiple sensors is a classic estimation problem in robotic
 
 ![cone](/assets/images/crosscalib/calibresult.png)
 
-# Publications:
 
+**Related Papers**
 S. Mishra, P. Osteen, G. Pandey and S. Saripalli, “Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration,” in Proceedings of the  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 25-29, 2020 | Las Vegas, NV, USA.
 
 S. Mishra, G. Pandey and S. Saripalli, “Extrinsic Calibration of a 3D-LIDAR and a Camera,” in Proceedings of the 31st IEEE Intelligent Vehicles Symposium October 20-23, 2020 | Las Vegas, NV, United States.

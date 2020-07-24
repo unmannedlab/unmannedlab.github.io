@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Autonomous Shuttle
+title:  "Autonomous Shuttle"
 author: Garrison Neel
 thumbnail: /assets/images/auto_shuttle/shuttle0.jpg
 ---

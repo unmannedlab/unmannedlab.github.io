@@ -1,0 +1,10 @@
+- file: /assets/images/carousel/warthog.jpg
+  caption: "Off Road Amphibibious Autonomous Vehicle"
+- file: /assets/images/carousel/trolley.png
+  caption: "Autonomous Urban Passenger Vehicle"
+- file: /assets/images/carousel/truck.jpg
+  caption: "Autonomous 18 Wheeler Cab and Trailer"
+- file: /assets/images/carousel/ranger.jpg
+  caption: "High Speed Autonomous Off Road Vehicle"
+- file: /assets/images/carousel/UAS.png
+  caption: "Collaborative Autonomous Drone Imaging"

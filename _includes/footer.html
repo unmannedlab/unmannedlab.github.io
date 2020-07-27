@@ -1,3 +1,21 @@
 <footer class="footer">
-  &#169; 2020 Unmanned Systems Lab
+    <div class="footer-container">
+        <div class="container">
+            <div class="section left">
+                &#169; 2020 Unmanned Systems Lab <br>
+                Dept. of Mechanical Engineering, <br>
+                Texas A&M University
+            </div>
+            <div class="section centerd">
+                <br>
+                {% include external-links.html %}
+            </div>
+            <div class="section right">
+                3123 TAMU<br>College Station, TX<br> 77845-3123
+            </div>
+        </div>
+    </div>
 </footer>
+
+<script src="{{ site.url }}{{ site.baseurl }}/js/jquery.slim.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>

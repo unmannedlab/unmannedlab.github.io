@@ -1,0 +1,73 @@
+<style>
+    footer a:visited{
+        color: #404040;
+    }
+
+    footer a:hover{
+        color: #303030;
+    }
+</style>
+
+<ul class="list-inline text-center footer-links">
+
+    {%- if site.external-links.email -%}
+        <li class="list-inline-item">
+            <a href="mailto:{{ site.external-links.email }}" title="Contact">
+                <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+            </a>
+        </li>
+    {%- endif -%}
+    
+    {%- if site.external-links.github -%}
+        <li class="list-inline-item">
+            <a href="https://github.com/{{ site.external-links.github }}" title="GitHub">
+                <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+            </a>
+        </li>
+    {%- endif -%}
+    
+    {%- if site.external-links.youtube -%}
+        <li class="list-inline-item">
+            <a href="https://www.youtube.com/{{ site.external-links.youtube }}" title="YouTube">
+                <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">YouTube</span>
+            </a>
+        </li>
+    {%- endif -%}
+    
+    {%- if site.external-links.map -%}
+        <li class="list-inline-item">
+            <a href="{{ site.external-links.map }}" title="map">
+                <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-map-marker fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+            </a>
+        </li>
+    {%- endif -%}
+    
+    {%- if site.external-links.rss -%}
+        <li class="list-inline-item">
+            <a href="{{ '/feed/research.xml' | relative_url }}" title="RSS">
+                <span class="fa-stack fa-lg" aria-hidden="true">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+            </a>
+        </li>
+    {%- endif -%}
+    
+</ul>

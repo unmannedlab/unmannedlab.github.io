@@ -1,19 +1,50 @@
 
 <style>
+    .title a {
+        text-decoration: none;
+    }
 
+    .topnav-right {
+        float: right;
+        font-size: 24px; 
+        vertical-align:middle; 
+        line-height: 64px;
+        display: none;
+    }
+
+    #myLinks{
+        display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .topnav-right {
+            display: inline-block;
+        }
+
+        .nav-large{
+            display:none;
+        }
+    }
 </style>
 
+<script src="/js/menu.js"></script> 
+
 <header class="header">
-	<div class="header-container">
-		<div class="title">
-			<a href="/"> <img height=64px src="/assets/images/logo.png"> </a> 
-			<div class="nav">
-				<span class="exclamationMark">
-					<li><a class="page-link" href="{{ site.baseurl }}/about">about</a></li>
-					<li><a class="page-link" href="{{ site.baseurl }}/people">people</a></li>
-					<li><a class="page-link" href="{{ site.baseurl }}/research">research</a></li>
-				</span>			
-			</div>		
-		</div>
-	</div>
+    <div class="header-container">
+        <div class="title">
+            <a href="/"> <img height=64px src="/assets/images/logo.png"> </a> 
+            <a class="nav-large" href="{{ site.baseurl }}/about">About</a>
+            <a class="nav-large" href="{{ site.baseurl }}/people">People</a>
+            <a class="nav-large" href="{{ site.baseurl }}/research">Research</a>
+            <div class="topnav-right">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+            </div>
+            <div id="myLinks">
+                <br>
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/people">People</a>
+                <a href="{{ site.baseurl }}/research">Research</a>
+            </div>
+        </div> 
+    </div>
 </header>

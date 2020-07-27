@@ -3,17 +3,16 @@ layout: profile
 title: Garrison Neel
 image: garrison.jpeg
 type: PhD
-show_profile: false
+show_profile: true
 homepage: 
-github : 
+github : http://github.com/neelg1193
 g_scholar: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/garrisoneel
 ---
 
 # About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-# Current Research
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a 4th year PhD student at Texas A&M.
+I completed my undergrad in Mehanical Engineering at Texas A&M in 2016. 
+I am interested in controls, perception, planning, machine learning, and many other fields related to self driving cars.
+I also play the guitar and enjoy sim-racing.

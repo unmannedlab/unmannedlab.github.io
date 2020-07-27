@@ -3,17 +3,17 @@ layout: profile
 title: Subodh Mishra
 image: subodh.jpeg
 type: PhD
-show_profile: false
+show_profile: true
 homepage: 
-github : 
+github : https://github.com/SubMishMar
 g_scholar: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/subodh-mishra/ 
 ---
 
 # About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a 4th year PhD student at Texas A&M. I am interested in classical problems in robotics like state estimation, mapping and localization, sensor calibration, etc.
 
 # Current Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+My current research interests hover around camera lidar cross calibration. We have implemented a few target based calibration methods and currently looking at targetless motion based approaches. The ideal goal is to do motion based calibration in real time under a SLAM framework.

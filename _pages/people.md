@@ -6,7 +6,6 @@ permalink: /people/
 
 <link rel="stylesheet" type="text/css" href="/assets/css/people.css">
 
-
 # Faculty
 
 
@@ -20,7 +19,7 @@ permalink: /people/
     </div>
 </div> 
 
-
+<br>
 # Graduate Students
 
 
@@ -73,4 +72,5 @@ permalink: /people/
 {% endfor %}
 </div>
 
+<br>
 <h1><a href="/alumni"> Alumni & Former Students </a></h1>

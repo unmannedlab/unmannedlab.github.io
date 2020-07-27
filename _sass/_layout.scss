@@ -6,7 +6,7 @@ html,body {
  * Header
  */
 .header {
-    padding: 50px 20px 40px;
+    padding: 20px;
     //background-color: #6e0000;
     background-image: linear-gradient(rgb(120, 0, 0), rgb(80, 0, 0),);
     
@@ -21,12 +21,11 @@ html,body {
 .header-container {
     max-width: 1200px;
     margin: 0px auto;
-    
 }
 
 .nav {
     color: #ededed;
-    text-indent: 2.5em;
+    text-indent: 0em;
 	text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
@@ -57,12 +56,6 @@ li {
     text-decoration: none;
 }
 
-.nav li a:visited {
-    opacity: 1;
-    transition: all 0.15s linear 0s;
-    text-decoration: none;
-}
-
 .nav li a:hover {
     opacity: 0.6;
     cursor: pointer;
@@ -75,12 +68,7 @@ li {
 
 .title a:link {
     color: #FFF;
-}
-
-.title a:visited {
-    opacity: 1;
-    transition: all 0.15s linear 0s;
-    text-decoration: none;
+    margin-right: 40px;
 }
 
 .title a:hover {
@@ -198,7 +186,7 @@ li {
  * Footer
  */
 .footer {
-    position: fixed;
+    // position: fixed;
     z-index:1000;
     bottom: 0em;
     width: 100%;
@@ -209,4 +197,55 @@ li {
     font-weight: 700;
     max-height: 20%;
     background-image: linear-gradient(rgb(100, 0, 0), rgb(80, 0, 0),);
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.left{
+    text-align:left;
+    float:left;
+}
+.centered{
+    text-align:center;
+}
+.right{
+    float:right;
+    text-align:right;
+}
+
+
+
+.footer-container{
+    max-width: 1200px;
+}
+footer a{
+    color: #404040;
+}
+
+footer a:visited{
+    color: #404040;
+}
+
+.column{
+    width: 400px;
+}
+.container:after { /*clear float*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section {
+    float: left;
+    width: 33.3333%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) { /*breakpoint*/
+    .section {
+        float: none;
+        width: auto;
+    }
 }

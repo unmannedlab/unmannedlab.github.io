@@ -1,0 +1,12 @@
+- date: June 30, 2020
+  headline: "2 papers accepted in IROS 2020"
+  content: " 1. A POMDP Treatment of Vehicle-Pedestrian Interaction: Implicit Coordination via Uncertainty-Aware Planning <br> 2. Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration"
+- date: May 1, 2020
+  headline: "4 papers accepted for IV 2020"
+  content: "1. An Iterative LQR Controller for Off-Road and On-Road Vehicles Using a Neural Network Dynamics Mode <br> 2. Extrinsic Calibration of a 3D-LIDAR and a Camera <br> 3. Systems Integration, Simulation, and Control for Autonomous Trucking <br> 4. AutoCone: An OmniDirectional Robot for Lane-Level Cone Placement"
+- date: May 21, 2020
+  headline: "Paper in Journal of Manufacturing Systems"
+  content: "Image-based flight control of unmanned aerial vehicles (UAVs) for material handling in custom manufacturing"
+- date: February 1, 2020
+  headline: "Paper in ICRA 2020"
+  content: "Fast Local Planning and Mapping in Unknown Off-Road Terrain"

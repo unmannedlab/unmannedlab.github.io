@@ -1,0 +1,25 @@
+<style>
+    .well h2 {
+        font-size: 18px;
+    }
+    .well h3 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .well p{
+        font-size: 12px;
+    }
+</style>
+
+<div id="newsid" class="col-sm-4" >
+    <div class="well">
+        <h1 class="centered">News</h1>
+        {% for article in site.data.news_list limit:4 %}
+            <hr>
+            <h2>{{ article.date }}:</h2>
+            <h3>{{ article.headline }}</h3>
+            <p>{{ article.content }}</p>
+        {% endfor %}
+        <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews/">... see all News</a></h4>
+    </div>
+</div>

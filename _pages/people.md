@@ -14,7 +14,7 @@ permalink: /people/
         <a class="person-thumbnail" style="background-image: url(images/sri2.jpeg); min-height: 260px;" href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html"></a>
         <div class="person-title">
             <h2 class="person-name"><a href="https://engineering.tamu.edu/mechanical/profiles/saripalli.html">Dr. Srikanth Saripalli</a></h2>
-            <p>Associate Professor</p>
+            <p>Professor</p>
         </div>
     </div>
 </div> 

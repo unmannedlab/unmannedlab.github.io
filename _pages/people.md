@@ -73,4 +73,4 @@ permalink: /people/
 </div>
 
 <br>
-<h1><a href="/alumni"> Alumni & Former Students </a></h1>
+<h1><a href="/alumni/"> Alumni & Former Students </a></h1>

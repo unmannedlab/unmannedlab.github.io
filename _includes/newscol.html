@@ -14,9 +14,10 @@
 <div id="newsid" class="col-sm-4" >
     <div class="well">
         <h1 class="centered">News</h1>
-        {% for article in site.data.news_list limit:4 %}
+        {% assign sorted = site.data.news_list | sort: "date" | reverse %}
+        {% for article in sorted limit:4 %}
             <hr>
-            <h2>{{ article.date }}:</h2>
+            <h2>{{ article.date | date_to_string }}:</h2>
             <h3>{{ article.headline }}</h3>
             <p>{{ article.content }}</p>
         {% endfor %}

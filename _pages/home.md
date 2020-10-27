@@ -9,7 +9,7 @@ permalink: /
 
 <div class="row">
     <div id="homeid" class="col-sm-8">
-        <h1>Welcome to the Unmanned Systems Lab</h1>
+        <h1>Texas A&M Unmanned Systems Lab</h1>
         <p> 
             Our research focuses on Mapping, Localization, Guidance, Navigation and Control for developing autonomous ground and aerial vehicles. 
             Our projects span from algorithmic design and implementation to field experimentation of aerial and ground robots.  

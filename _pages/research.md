@@ -29,4 +29,4 @@ permalink: /research/
 </article>
 {% endfor %}
 
-<h1><a href="/research_past"> Past Research Projects </a></h1>
+<h2><a href="/research_past"> Past Research Projects </a></h2>

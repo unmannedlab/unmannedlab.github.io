@@ -4,9 +4,10 @@ title: Alumni
 permalink: /alumni/
 ---
 
+<h1 class="display-4">{{ page.title }}</h1>
 
-# Alumni
-### Current Affilations follow
+## Current Affilations follow
+- Grayson Woods (Applied Research Laboratories)
 - Sai Vemprala (Autonomous Systems group at Microsoft)
 - Blake Karwoski (M.S. Robotics University of Michigan)
 - Jibin Varghese
@@ -28,7 +29,7 @@ permalink: /alumni/
 - Avinash Thiruvayipati
 - Evan Olson
 
-### Visiting Students
+## Visiting Students
 - Alvika Gautam, IIIT Delhi, India
 - Carlos Sampedro Pérez, Universidad Politécnica de Madrid (UPM)
 - Adrián Carrio, Universidad Politécnica de Madrid (UPM)

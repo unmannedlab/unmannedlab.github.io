@@ -25,10 +25,10 @@ There are also examples of using UWB modules for outdoor vehicular environments.
 
 Given a network of vehicles, it is possible to leverage relative measurements to provide better localization accuracy as a group, than as a collection of individuals, generally referred to as collaborative localization (CL). These methods are generally classified in two groups: centralized methods, and decentralized methods.
 
-#### Centralized CL
+## Centralized CL
 Centralized CL methods use a single or multiple fusion centers, to which every vehicle communicates measurement information. These state estimators are capable of producing optimal linearized state estimates and have been used in a number of applications with success. A major issue with centralized networks is sensitivity to failure. As the number of measurements made can increase on the order of O(n^2), centralized networks can meet constraints when large networks of nodes are implemented with complex measurements or update functions.
 
-#### Decentralized CL
+## Decentralized CL
 Decentralized CL (DCL) methods are defined by distributing the state estimation computation across every agent in the network. Unlike centralized methods, DCL methods are not susceptible to single point failures. These generic, recursive approximations of the centralized method can extend the framework to decrease convergence time or computational cost without loss of accuracy. 
 
 
@@ -47,18 +47,18 @@ The decentralized collaborative localization algorithm is a form of a Kalman fil
 
 For a network of N vehicles, each vehicle initializes its own 6-DOF state and assumes zero cross-correlations between the vehicles until a relative measurement is made. As such, the number of vehicles does not need to be known.
 
-#### Initialization
+## Initialization
 It is assumed that at the beginning of any network, the vehicles positions are uncorrelated. Therefore, the network state can be initialized with the initial beliefs of each vehicle and the cross correlation is set as a zero matrix.
 
 When the vehicles come into sensing range, generally the cross correlation is no longer equal to zero and therefore the cross-correlation term can be decomposed to allow each vehicle to maintain estimates of cross correlation terms that can be combined at the next relative measurement. The decomposition sets the cross-correlation of the sensing vehicle equal to the true cross-correlation and the sensed vehicle estimate equal to the identity matrix.
 
-#### Control
+## Control
 It is assumed that the vehicles follow the motion model _g(U)_ where control input U is an IMU measurement. The prediction step for a vehicle is given by the standard EKF equations.
 
-#### Private Update
+## Private Update
 It is assumed that the private update measurements are functions of the state of a single vehicle with a Gaussian error disturbance _h(x)_. These updates come from GNSS positioning and UWB landmark ranging measurements.  
 
-#### Relative Update
+## Relative Update
 It is assumed that the relative update measurement to be a function of the state of two vehicles with a Gaussian error disturbance. These updates come from vehicle-to-vehicle relative UWB ranging measurements. The cross-correlation estimates are combined to be used in the best state estimate of the approximated system.
 
 
@@ -69,16 +69,16 @@ It is assumed that the relative update measurement to be a function of the state
 In order to simulate various collaborative localization algorithms, a simulation framework that would be flexible in number of cars and networking was created in MatLab: [collab_localization repository](!https://github.com/unmannedlab/collab_localization). The simulation was designed to handle an indeterminate number of cars and configurations. Additionally, to facilitate the testing of collaborative localization, UWB tags can be treated as either fixed landmarks or mobile units on other vehicles. 
 
 
-#### Sensing Models
+## Sensing Models
 The UWB sensing model was implemented with Gaussian normal randomly distributed errors with a measured standard deviation of 0.31 meters. 
 
 The GNSS sensing model takes a Circular Error Probable (CEP) error value and converts into a distance root mean square (DRMS), which is approximately 84.93\% of CEP. This DRMS value is input to a circularly symmetric Rayleigh distribution to perturb the measurement. 
 
-#### Output
+## Output
 The resulting output of this software package is a visual animation of the simulation, position error summaries for each vehicle, and the final state and covariance. When compiled in Monte Carlo simulations, these data can be used to evaluate filter performance improvements.
 
 
-#### Results
+## Results
 
 <img src="/assets/images/uwb/err_sc.png" alt="UWB Ranging" style="float:right;width:400px"/>
 

@@ -69,7 +69,7 @@ You probably don't have your research yet on the webpage. You can simply add it 
 
 ## Guidelines
 
-To add a research post, create a markdown file in `research/_posts/` following the convention 'YYYY-MM-DD-Name-of-Post.md'. 
+To add a research post, create a markdown file in `research/_posts/` following the convention `YYYY-MM-DD-Name-of-Post.md`. 
 
 Add images to `assets/images/Your_Folder/Image_file.png`. You can use a thumbnail for your post in addition to other pictures within the markdown file of your post. 
 
@@ -83,7 +83,7 @@ Example Template from above examples:
 ---
 layout: post
 title:  "Sign Detection with LIDAR"
-author: Amir Darwesh
+author: [Amir Darwesh, Jacob Hartzer]
 thumbnail: /assets/images/lidar/sign_detection_leadin.png
 ---
 ```
@@ -93,7 +93,7 @@ thumbnail: /assets/images/lidar/sign_detection_leadin.png
 One required ability for autonomous vehicles is to correctly identify street signs. This project investigates the feasibility of using a LIDAR sensor to detect, and classify signs for autonomous vehicles. Current popular methods for sign detection are vision based, however, in case of low visibility, a LIDAR detection method can be used instead.
 ```
 
-👮 **Note** You should at a minimum have a thumbnail, and an excerpt of your research. 
+👮 **Note** You should at a minimum have a thumbnail, and an excerpt of your research. Multiple authors must be put in brackets.
 
 # News List
 

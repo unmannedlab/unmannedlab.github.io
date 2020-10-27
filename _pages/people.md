@@ -20,8 +20,8 @@ permalink: /people/
 </div> 
 
 <br>
-# Graduate Students
 
+# Graduate Students
 
 <div class="flex-container">
 {% for people in site.people %}

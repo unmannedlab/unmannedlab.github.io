@@ -95,12 +95,12 @@ One required ability for autonomous vehicles is to correctly identify street sig
 
 👮 **Note** You should at a minimum have a thumbnail, and an excerpt of your research. 
 
-# New
+# News List
 
-In order to add to the site news feed, edit the `news_list.yml` in the `_data\` folder. The news posts are dated, with a headline and snippit using the following format.
+In order to add to the site news feed, edit the `news_list.yml` in the `_data\` folder. The news posts are dated, with a headline and snippit using the following format. The date needs to be in YYYY-MM-DD format for the sorting to work automatically. 
 
 ```yaml
-- date: February 1, 2020
+- date: 2020-02-01
   headline: "Paper in ICRA 2020"
   content: "Fast Local Planning and Mapping in Unknown Off-Road Terrain"
 ```

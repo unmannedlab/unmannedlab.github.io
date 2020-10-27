@@ -25,8 +25,8 @@ In order to test path planning, and obstacle detection and avoidance, we have pe
 
 Path Planning and Obstacle detection
 
-[![Path Planning and Obstacle Detection - Self Driving Shuttle](http://img.youtube.com/vi/Zb63iPoHZ_8/0.jpg)](https://youtu.be/Zb63iPoHZ_8 "Path Planning and Obstacle Detection - Self Driving Shuttle")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zb63iPoHZ_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-[![Self Driving Shuttle First Person View](http://img.youtube.com/vi/V-FjMMKsZMk/0.jpg)](https://youtu.be/V-FjMMKsZMk "Self Driving Shuttle First Person View")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V-FjMMKsZMk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

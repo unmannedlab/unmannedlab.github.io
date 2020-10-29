@@ -35,7 +35,8 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 **Notes** Interesting method to generate thermal images from RGB images
 
 ## Video Tutorials / Lectures
-### [Robotic's Today](https://roboticstoday.github.io/index.html)
+[**Robotic's Today**](https://roboticstoday.github.io/index.html)
+
 **Notes** Interesting seminar series from prominent roboticists, scheduled on Fridays at 3PM EDT (12AM PDT) 
 
 

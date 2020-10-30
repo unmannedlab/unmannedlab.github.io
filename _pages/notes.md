@@ -15,10 +15,12 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 **Notes:** Al Kelly's PhD thesis (1995) is a massive tome, but it has a pretty good compendium of material on requirements for lookahead distance, field of view, resolution, etc. This is required reading for everyone working on autonomous vehicles (air or ground)
 
 ## Good Papers
+[**Under the Radar: Learning to Predict Robust Keypoints forOdometry Estimation and Metric Localisation in Radar**](https://arxiv.org/pdf/2001.10789.pdf)
+**Notes** - None - 
 
 [**An Open-Source System for Vision-Based Micro-Aerial Vehicle Mapping, Planning, and Flight in Cluttered Environments**](https://arxiv.org/pdf/1812.03892.pdf)
 
-**Notes:** An overall nice paper that describes the entire architecture for uavs. Very relevant to ground vehicles also
+**Notes** An overall nice paper that describes the entire architecture for uavs. Very relevant to ground vehicles also
 
 [**High Fidelity Day  /Night Stereo Mapping with Vegetation and Negative Obstacle Detection for Vision-in-the-Loop Walking**](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_IROS_2013/media/files/0692.pdf)
 
@@ -33,6 +35,10 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 [**Pix2Pix**](https://sezan92.github.io/2020/04/14/pix2pix_thermal.html)
 
 **Notes** Interesting method to generate thermal images from RGB images
+
+[**ROS Bag Editor**](https://github.com/facontidavide/rosbag_editor)
+
+**Notes** Good GUI to handle rosbags
 
 ## Video Tutorials / Lectures
 [**Robotic's Today**](https://roboticstoday.github.io/index.html)
@@ -49,6 +55,12 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 **Notes** - None -
 
 ## Guides
+[**Thoughts on Writing a Good (Robotics) Paper**](http://tokekar.com/docs/Tokekar-WritingPapers-Talk.pdf)
+A very good introduction on How to write a good robotics paper. Everyone should read
+
+[**The Missing Semester of Your CS Education**](https://missing.csail.mit.edu/)
+
+**Notes** Good resource for getting some more background in linux terminals
 
 [**ROS Docker Setup Stack for DARPA**](https://github.com/osrf/subt_hello_world/tree/master/posts)
 

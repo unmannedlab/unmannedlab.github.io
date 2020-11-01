@@ -73,8 +73,11 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 
 ## Awesome Tech Reports
 [**Quaternion kinematics for the error-state Kalman filter**](https://arxiv.org/abs/1711.02508)
+
 [**Indirect Kalman Filter for 3 D Attitude Estimation**](https://www.semanticscholar.org/paper/Indirect-Kalman-Filter-for-3-D-Attitude-Estimation-Trawny-Roumeliotis/2c8e95bc331024105cbde6f6918cda8493f263c8)
+
 [**A Multi-State Constraint Kalman Filter for Vision-aided Inertial Navigation**](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi4ppGrwODsAhUHI6wKHVRqDOYQFjABegQIBhAC&url=https%3A%2F%2Fintra.ece.ucr.edu%2F~mourikis%2Ftech_reports%2FTR_MSCKF.pdf&usg=AOvVaw2Qr10VBlnglPsvvZmjdoDx)
+
 [**Continuous Preintegration Theory for Graph-based Visual-Inertial Navigation**](http://udel.edu/~ghuang/papers/tr_cpi.pdf)
 
 

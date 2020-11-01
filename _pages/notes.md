@@ -9,9 +9,13 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 
 ## Introduction to SLAM
 [**Simultaneous Localisation and Mapping ( SLAM ) : Part I The Essential Algorithms**](https://www.semanticscholar.org/paper/Simultaneous-Localisation-and-Mapping-(-SLAM-)-%3A-I-Durrant-Whyte-Bailey/666b8959abc3be4d6026f2053711a62119bec4a5)
+
 [**Simultaneous localization and mapping (SLAM): part II**](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj-9Pupn-DsAhUBY6wKHVQxBooQFjABegQIAhAC&url=https%3A%2F%2Fwww.doc.ic.ac.uk%2F~ajd%2FRobotics%2FRoboticsResources%2FSLAMTutorial2.pdf&usg=AOvVaw1v5KOphkEgwJU18CX2YqGh)
+
 [**Globally Consistent Range Scan Alignment for Environment Mapping**](https://link.springer.com/article/10.1023/A:1008854305733)
+
 [**A Tutorial on Graph-Based SLAM**](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiWsdnun-DsAhUFc60KHdShDfgQFjAAegQIBRAC&url=http%3A%2F%2Fwww2.informatik.uni-freiburg.de%2F~stachnis%2Fpdf%2Fgrisetti10titsmag.pdf&usg=AOvVaw3_l9o1dOk82MwBGeOO-eE4)
+
 [**INTERACTIVE COURSE ON EKF AND SLAM**](http://www.iri.upc.edu/people/jsola/JoanSola/eng/course.html)
 **Notes:** Includes easy to modify and run Matlab code.
 

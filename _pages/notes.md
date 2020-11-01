@@ -7,6 +7,14 @@ permalink: /notes/
 This webpage is meant to server as a collection of internal notes for our lab. We often post papers / videos to basecamp, but they can get buried after some time. To organize and prevent interesting things getting lost to time, it would be nice to add them here in a central location. With GitHub and the web editor, it's really easy to edit this page and add links as we post.
 
 
+## Introductory Reading on SLAM
+[**Simultaneous Localisation and Mapping ( SLAM ) : Part I The Essential Algorithms**](https://www.semanticscholar.org/paper/Simultaneous-Localisation-and-Mapping-(-SLAM-)-%3A-I-Durrant-Whyte-Bailey/666b8959abc3be4d6026f2053711a62119bec4a5)
+
+**Notes:** - None -
+
+[**Simultaneous localization and mapping (SLAM): part II**](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj-9Pupn-DsAhUBY6wKHVQxBooQFjABegQIAhAC&url=https%3A%2F%2Fwww.doc.ic.ac.uk%2F~ajd%2FRobotics%2FRoboticsResources%2FSLAMTutorial2.pdf&usg=AOvVaw1v5KOphkEgwJU18CX2YqGh)
+
+**Notes:** - None -
 
 ## Must Read Papers 
 

@@ -39,6 +39,12 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 
 ## GitHub Repositories
 
+[**The X Navigation Framework by JPL-NASA**](https://github.com/jpl-x)
+**Notes** Robot navigation using visual, thermal, range, solar, GPS and inertial measurements.
+
+[**OpenVINS**](https://github.com/rpng/open_vins)
+**Notes** The OpenVINS project houses some core computer vision code along with a state-of-the art filter-based visual-inertial estimator.
+
 [**Kalman filter library**](https://github.com/commaai/rednose)
 
 **Notes** This is interesting since it uses sympy to compute jacobians symbolically and then auto generates c code, one of the few KF libraries which uses modern python tooling and gets it right.

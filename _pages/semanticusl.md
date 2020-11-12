@@ -3,7 +3,7 @@ permalink: /semanticusl.html
 layout: page
 ---
 
-# LiDARNet: A Boundary-Aware Domain Adaptation Model for Point Cloud Semantic Segmentation
+## LiDARNet: A Boundary-Aware Domain Adaptation Model for Point Cloud Semantic Segmentation
 
 ![LiDARNet](/assets/images/da_seg/data_flow.png)
 
@@ -15,16 +15,19 @@ We present a boundary-aware domain adaptation model for LiDAR scan full-scene se
 ## Results
 
 ### Domain Adapation from SemanticKITTI to SemanticPOSS and SemanticUSL
+
 ![LiDARNetkitti](/assets/images/da_seg/LiDARNetkitti.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/62C9cKzw3eY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Domain Adapation from SemanticPOSS to SemanticKITTI and SemanticUSL
+
 ![LiDARNetposs](/assets/images/da_seg/LiDARNetposs.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jd-OaQ3jD5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Domain Adapation from SemanticUSL to SemanticPOSS and SemanticKTTI
+
 ![LiDARNetusl](/assets/images/da_seg/LiDARNetusl.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eRk7VJbQsRM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

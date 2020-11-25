@@ -21,7 +21,7 @@ SemanticUSL was collected on a Clearpath Warthog robotics with an Ouster OS1-64 
 [LiDARNet: A Boundary-Aware Domain Adaptation Model for Lidar Point Cloud Semantic Segmentation](https://unmannedlab.github.io/research/LiDARNet)
 
 ## Citation
-'''
+```
 @misc{jiang2020lidarnet,
       title={LiDARNet: A Boundary-Aware Domain Adaptation Model for Lidar Point Cloud Semantic 
       author={Peng Jiang and Srikanth Saripalli},
@@ -30,6 +30,6 @@ SemanticUSL was collected on a Clearpath Warthog robotics with an Ouster OS1-64 
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-'''
+```
 
 

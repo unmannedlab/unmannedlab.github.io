@@ -2,7 +2,7 @@
 layout: post
 title:  "SemanticUSL:"
 author: Peng Jiang
-thumbnail: /assets/images/da_seg/point_cloud_results.png
+thumbnail: /assets/images/da_seg/usl_scene.png
 ---
 ## SemanticUSL: A Dataset for Semantic Segmentation Domain Adatpation
 ![SemenaticUSL](/assets/images/da_seg/usl_scene.png)

@@ -1,7 +1,7 @@
 ---
 permalink: /semanticusl.html
 layout: page
-title: SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adatpation
+title: "SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adatpation"
 ---
 ## <a name="semanticusl"></a>SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adatpation
 <p align="center">

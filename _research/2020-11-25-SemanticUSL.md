@@ -2,7 +2,7 @@
 layout: post
 title:  "SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adatpation"
 author: Peng Jiang
-thumbnail: /assets/images/lidarnet/lidarnet.png
+thumbnail: /assets/images/lidarnet/usl_scene.png
 ---
 <p align="center">
 <img width="600" height="400" src="/assets/images/lidarnet/usl_scene.png">

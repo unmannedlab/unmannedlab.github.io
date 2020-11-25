@@ -1,14 +1,18 @@
 ---
 layout: post
-title:  "SemanticUSL: A Dataset for LiDAR Semantic Segmentation"
+title:  "SemanticUSL: A Dataset for LiDAR Semantic Segmentation Domain Adatpation"
 author: Peng Jiang
 thumbnail: /assets/images/lidarnet/lidarnet.png
 ---
+<p align="center">
+<img width="600" height="400" src="/assets/images/lidarnet/usl_scene.png">
+</p>
+
 SemanticUSL was collected on a Clearpath Warthog robotics with an Ouster OS1-64 Lidar. The data collection location includes the campus site and off-road research facility of Texas A& M University. The data include the traffic-road scene, walk-road scene, and off-road scene. Our dataset has 16578 unlabeled scans for domain adaptation training and 1200 labeled scans for evaluation. The data uses the same format and ontology as SemanticKITTI; therefore, it can be easily used for domain adaptation research between [SemanticKITTI](http://semantic-kitti.org/) and [SemanticPOSS](poss.pku.edu.cn/semanticposs.html).  
 
-![SemenaticUSL](/assets/images/lidarnet/usl_scene.png)
-
-![warthog](/assets/images/lidarnet/warthog.jpg)
+<p align="center">
+<img width="600" height="400" src="/assets/images/lidarnet/warthog.jpg">
+</p>
 
 ### Download
 
@@ -19,6 +23,8 @@ SemanticUSL was collected on a Clearpath Warthog robotics with an Ouster OS1-64 
 ## Related Work
 
 [LiDARNet: A Boundary-Aware Domain Adaptation Model for Lidar Point Cloud Semantic Segmentation](https://unmannedlab.github.io/research/LiDARNet)
+
+[RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics](https://unmannedlab.github.io/research/RELLS-3D)
 
 ## Citation
 ```

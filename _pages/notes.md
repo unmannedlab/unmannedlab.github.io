@@ -80,6 +80,8 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 
 [**Continuous Preintegration Theory for Graph-based Visual-Inertial Navigation**](http://udel.edu/~ghuang/papers/tr_cpi.pdf)
 
+## Books
+[**State Estimation for Robotics by Tim Barfoot**](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjKuP7ZlZLtAhUFMqwKHRDrBYQQFjABegQIBRAC&url=http%3A%2F%2Fasrl.utias.utoronto.ca%2F~tdb%2Fbib%2Fbarfoot_ser17.pdf&usg=AOvVaw1R00Dsh9RrJoXznO9Y3gWg)
 
 ## Guides
 [**Thoughts on Writing a Good (Robotics) Paper**](http://tokekar.com/docs/Tokekar-WritingPapers-Talk.pdf)

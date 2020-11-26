@@ -5,13 +5,13 @@ author: Peng Jiang
 thumbnail: /assets/images/lidarnet/usl_scene.png
 ---
 <p align="center">
-<img width="600" height="400" src="/assets/images/lidarnet/usl_scene.png">
+<img src="/assets/images/lidarnet/usl_scene.png">
 </p>
 
 SemanticUSL was collected on a Clearpath Warthog robotics with an Ouster OS1-64 Lidar. The data collection location includes the campus site and off-road research facility of Texas A& M University. The data include the traffic-road scene, walk-road scene, and off-road scene. Our dataset has 16578 unlabeled scans for domain adaptation training and 1200 labeled scans for evaluation. The data uses the same format and ontology as SemanticKITTI; therefore, it can be easily used for domain adaptation research between [SemanticKITTI](http://semantic-kitti.org/) and [SemanticPOSS](poss.pku.edu.cn/semanticposs.html).  
 
 <p align="center">
-<img width="600" height="400" src="/assets/images/lidarnet/warthog.jpg">
+<img src="/assets/images/lidarnet/warthog.jpg">
 </p>
 
 ### Download

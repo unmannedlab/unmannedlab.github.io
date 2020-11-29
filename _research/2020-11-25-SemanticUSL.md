@@ -24,7 +24,7 @@ SemanticUSL was collected on a Clearpath Warthog robotics with an Ouster OS1-64 
 
 [LiDARNet: A Boundary-Aware Domain Adaptation Model for Lidar Point Cloud Semantic Segmentation](https://unmannedlab.github.io/research/LiDARNet)
 
-[RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics](https://unmannedlab.github.io/research/RELLS-3D)
+[RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics](https://unmannedlab.github.io/research/RELLIS-3D)
 
 ## Citation
 ```

@@ -4,7 +4,7 @@ title: Unmanned Lab Notes
 permalink: /notes/
 ---
 
-This webpage is meant to server as a collection of internal notes for our lab. We often post papers / videos to basecamp, but they can get buried after some time. To organize and prevent interesting things getting lost to time, it would be nice to add them here in a central location. With GitHub and the web editor, it's really easy to edit this page and add links as we post.
+This webpage is meant to serve as a collection of internal notes for our lab. We often post papers / videos to basecamp, but they can get buried after some time. To organize and prevent interesting things getting lost to time, it would be nice to add them here in a central location. With GitHub and the web editor, it's really easy to edit this page and add links as we post.
 
 
 ## Introduction to SLAM
@@ -35,6 +35,9 @@ This webpage is meant to server as a collection of internal notes for our lab. W
 
 [**High Fidelity Day  /Night Stereo Mapping with Vegetation and Negative Obstacle Detection for Vision-in-the-Loop Walking**](http://vigir.missouri.edu/~gdesouza/Research/Conference_CDs/IEEE_IROS_2013/media/files/0692.pdf)
 
+**Notes** - None -
+
+[MaRS: A Modular and Robust Sensor-Fusion Framework](https://ieeexplore.ieee.org/document/9286578)
 **Notes** - None -
 
 ## GitHub Repositories
@@ -94,3 +97,14 @@ A very good introduction on How to write a good robotics paper. Everyone should 
 [**ROS Docker Setup Stack for DARPA**](https://github.com/osrf/subt_hello_world/tree/master/posts)
 
 **Notes:** A great set of posts that describe how to use ROS and setup the entire stack for the DARPA SubT challenge. Not only a good read but setting it up would be good to just learn ROS and setup a really good sim environment
+
+
+## Tools
+[**http://www.geno-project.org/**](http://www.geno-project.org/)
+
+**Notes:** Code generator for linear algebra equations
+
+[**http://www.matrixcalculus.org/**](http://www.matrixcalculus.org/)
+
+
+**Notes:** Code generator for matrix calculus

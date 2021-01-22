@@ -17,7 +17,7 @@ SemanticUSL was collected on a Clearpath Warthog robotics with an Ouster OS1-64 
 
 **Example Data** [link](https://drive.google.com/file/d/1f2Yq5TNKWZgB4iVJzYzxkvyIa_X9zL7F/view?usp=sharing)
 
-**Full Data** [link](https://drive.google.com/file/d/1f2Yq5TNKWZgB4iVJzYzxkvyIa_X9zL7F/view?usp=sharing)
+**Full Data** [link](https://drive.google.com/file/d/15-RqQXKoFPQGAjA1vG05cx6QTBuTfz38/view?usp=sharing)
 
 ## LiDARNet: A Boundary-Aware Domain Adaptation Model for Point Cloud Semantic Segmentation
 

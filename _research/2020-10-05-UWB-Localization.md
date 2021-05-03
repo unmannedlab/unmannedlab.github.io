@@ -108,7 +108,9 @@ Future work for this reserach includes
 In the future, testing will include more in-person experiments with multiple moving vehicles and a greater number of UWB tags. This would allow for better evaluation of truly cooperative localization using of vehicles using UWB and will validate the algorithm used in simulation. This will also explore the use of real-time varying covariance estimations in the update equations.
 
 
+# Preprint
 
+A preprint of the paper can be found [here](https://arxiv.org/abs/2104.14106).
 
 # Related Works
 1.  L. Yao, Y. A. Wu, L. Yao, and Z. Z. Liao, “**An integrated IMU and UWB sensor based indoor positioning system**,” in _2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN)_, pp. 1–8, 2017.

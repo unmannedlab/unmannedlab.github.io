@@ -47,6 +47,10 @@ Deployment:
 IV2020 Presentation:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cbcMwYcLUmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# Preprint 
+
+A preprint of the paper can be found [here](https://arxiv.org/abs/2104.14103).
+
 # Citation:
 
 J. Hartzer and S. Saripalli, “Autocone:  An omnidirectional robot for lane-level cone placement,” inProceedings of the IEEE Intelligent Vehicles Symposium, (Las Vegas, NV), p. 440, 2020.

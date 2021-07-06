@@ -18,7 +18,7 @@ A roadside LiDAR dataset both in urban and in highway environments with annotate
 The table below summarizes the dataset:
 
 <p align="center">
-<img src="/assets/images/roadside_lidar/dataset_table.png" alt="Roadside LiDAR Photo" style="max-height: 200px;">
+<img src="/assets/images/roadside_lidar/dataset_table.png" alt="Dataset Table Summary" style="max-height: 200px;">
 </p>
 
 

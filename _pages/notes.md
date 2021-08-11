@@ -94,10 +94,15 @@ A very good introduction on How to write a good robotics paper. Everyone should 
 
 **Notes** Good resource for getting some more background in linux terminals
 
+[**Microsoft Machine Learning for Beginners - A Curriculum**](https://github.com/microsoft/ML-For-Beginners)
+
+[**Intrinsics Camera Calibration Using Rust**](https://www.tangramvision.com/blog/calibration-from-scratch-using-rust-part-1-of-3)
+
 [**ROS Docker Setup Stack for DARPA**](https://github.com/osrf/subt_hello_world/tree/master/posts)
 
 **Notes:** A great set of posts that describe how to use ROS and setup the entire stack for the DARPA SubT challenge. Not only a good read but setting it up would be good to just learn ROS and setup a really good sim environment
 
+[**ROS Async Spinner Example**](https://roboticsbackend.com/ros-asyncspinner-example/)
 
 ## Tools
 [**http://www.geno-project.org/**](http://www.geno-project.org/)

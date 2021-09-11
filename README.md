@@ -102,11 +102,20 @@ In order to add to the site news feed, edit the `news_list.yml` in the `_data\` 
 ```yaml
 - date: 2020-02-01
   headline: "Paper in ICRA 2020"
-  content: "Fast Local Planning and Mapping in Unknown Off-Road Terrain"
+  content: 
+    - "Fast Local Planning and Mapping in Unknown Off-Road Terrain"
 ```
 
-# Checks before commiting
+# Test the site with local host
 
-You can download jekyll and build the site using [jekyll](https://jekyllrb.com/docs/) serve before commiting to view the changes locally. If you're just changing people / research folders, than you should be ok. 
+You can build and serve a local version of the site using [jekyll](https://jekyllrb.com/docs/), [bundler](https://bundler.io/), and [ruby](https://www.ruby-lang.org/en/). If you're just changing people / research folders, than you should be ok to not do this.
 
+With bundler and jekyll installed, run the following command to compile the static site
+```bash
+bundle exec jekyll build
+```
 
+Once built, run the following command to serve the site to a local host (most likely http://localhost:4000/). The `--watch` command allows the server to monitor for changes to the site files and will regenerate on save.
+```bash
+bundle exec jekyll serve --watch
+```

@@ -1,18 +1,38 @@
-- date: 2021-06-15
-  headline: "2 papers accepted in ITSC 2021"
-  content: " 1. Building a Smart Work Zone Using Roadside LiDAR <br> 2. Vehicular Teamwork: Collaborative localization of Autonomous Vehicles"
-- date: 2020-06-30
-  headline: "2 papers accepted in IROS 2020"
-  content: " 1. A POMDP Treatment of Vehicle-Pedestrian Interaction: Implicit Coordination via Uncertainty-Aware Planning <br> 2. Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration"
-- date: 2020-05-01
-  headline: "4 papers accepted for IV 2020"
-  content: "1. An Iterative LQR Controller for Off-Road and On-Road Vehicles Using a Neural Network Dynamics Mode <br> 2. Extrinsic Calibration of a 3D-LIDAR and a Camera <br> 3. Systems Integration, Simulation, and Control for Autonomous Trucking <br> 4. AutoCone: An OmniDirectional Robot for Lane-Level Cone Placement"
-- date: 2020-05-21
-  headline: "Paper in Journal of Manufacturing Systems"
-  content: "Image-based flight control of unmanned aerial vehicles (UAVs) for material handling in custom manufacturing"
 - date: 2020-02-01
   headline: "Paper in ICRA 2020"
-  content: "Fast Local Planning and Mapping in Unknown Off-Road Terrain"
+  content: 
+    - "Fast Local Planning and Mapping in Unknown Off-Road Terrain [<a href=\"https://ieeexplore.ieee.org/document/9196848\">ieee</a>][<a href=\"https://arxiv.org/abs/1910.08521\">arxiv</a>]"
+- date: 2020-05-01
+  headline: "4 papers accepted for IV 2020"
+  content: 
+    - "An Iterative LQR Controller for Off-Road and On-Road Vehicles Using a Neural Network Dynamics Mode [<a href=\"https://arxiv.org/abs/2007.14492\">arxiv</a>]"
+    - "Extrinsic Calibration of a 3D-LIDAR and a Camera [<a href=\"https://ieeexplore.ieee.org/document/9304750\">ieee</a>]"
+    - "Systems Integration, Simulation, and Control for Autonomous Trucking [<a href=\"https://ieeexplore.ieee.org/abstract/document/9304814\">ieee</a>]"
+    - "AutoCone: An OmniDirectional Robot for Lane-Level Cone Placement [<a href=\"https://ieeexplore.ieee.org/document/9304683\">ieee</a>][<a href=\"https://arxiv.org/abs/2104.14103\">arxiv</a>]"
+- date: 2020-05-21
+  headline: "Paper in Journal of Manufacturing Systems"
+  content: 
+    - "Image-based flight control of unmanned aerial vehicles (UAVs) for material handling in custom manufacturing [<a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0278612520300480\">Elsevier</a>]"
+- date: 2020-06-30
+  headline: "2 papers accepted in IROS 2020"
+  content: 
+    - "A POMDP Treatment of Vehicle-Pedestrian Interaction: Implicit Coordination via Uncertainty-Aware Planning [<a href=\"https://ieeexplore.ieee.org/abstract/document/9341320\">ieee</a>][<a href=\"https://cse-robotics.engr.tamu.edu/dshell/papers/iros2020pedestrian.pdf\">pdf</a>]"
+    - "Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration [<a href=\"https://ieeexplore.ieee.org/document/9340911\">ieee</a>][<a href=\"https://arxiv.org/abs/2007.01959\">arxiv</a>]"
 - date: 2020-10-05
   headline: "Jacob Hartzer defends Mater's Thesis"
-  content: "Thesis Title: Collaborative Localization of Autonomous Vehicles using Ultra-Wideband Ranging"
+  content: 
+    - "Thesis Title: Collaborative Localization of Autonomous Vehicles using Ultra-Wideband Ranging [<a href=\"http://oaktrust.library.tamu.edu/handle/1969.1/192764\">oaktrust</a>]"
+- date: 2021-02-28
+  headline: "3 papers accepted in ICRA 2021"
+  content:  
+    - "Path Optimization for Ground Vehicles in Off-Road Terrain [<a href=\"https://arxiv.org/abs/2101.00769\">arxiv</a>]"
+    - "LiDARNet: A Boundary-Aware Domain Adaptation Model for Point Cloud Semantic Segmentation [<a href=\"https://arxiv.org/abs/2003.01174\">arxiv</a>]"
+    - "RELLIS-3D Dataset: Data, Benchmarks and Analysis [<a href=\"https://arxiv.org/abs/2011.12954\">arxiv</a>]"
+- date: 2021-03-09
+  headline: "Wael Karkoub defends Mater's Thesis"
+- date: 2021-06-15
+  headline: "2 papers accepted in ITSC 2021"
+  content:
+    - "Building a Smart Work Zone Using Roadside LiDAR"
+    - "Vehicular Teamwork: Collaborative localization of Autonomous Vehicles Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration [<a href=\"https://arxiv.org/abs/2104.14106\">arxiv</a>]"
+

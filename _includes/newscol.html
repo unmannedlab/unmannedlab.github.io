@@ -9,6 +9,9 @@
     .well p{
         font-size: 12px;
     }
+    .well li{
+        font-size: 12px;
+    }
 </style>
 
 <div id="newsid" class="col-sm-4" >
@@ -17,9 +20,17 @@
         {% assign sorted = site.data.news_list | sort: "date" | reverse %}
         {% for article in sorted limit:4 %}
             <hr>
-            <h2>{{ article.date | date_to_string }}:</h2>
-            <h3>{{ article.headline }}</h3>
-            <p>{{ article.content }}</p>
+            <h2 class="centered">{{ article.date | date_to_string }}:</h2>
+            <h3 class="centered">{{ article.headline }}</h3>
+            {% if article.content.size > 1%}
+                <ul>
+                {% for item in article.content %}
+                    <li>{{item}}</li>
+                {% endfor %}
+                </ul>
+            {% else %}
+                <p>{{ article.content }}</p>
+            {% endif %}
         {% endfor %}
         <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews/">... see all News</a></h4>
     </div>

@@ -1,38 +1,67 @@
+
 - date: 2020-02-01
   headline: "Paper in ICRA 2020"
   content: 
     - "Fast Local Planning and Mapping in Unknown Off-Road Terrain [<a href=\"https://ieeexplore.ieee.org/document/9196848\">ieee</a>][<a href=\"https://arxiv.org/abs/1910.08521\">arxiv</a>]"
+
 - date: 2020-05-01
-  headline: "4 papers accepted for IV 2020"
+  headline: "Four papers accepted for IV 2020"
   content: 
     - "An Iterative LQR Controller for Off-Road and On-Road Vehicles Using a Neural Network Dynamics Mode [<a href=\"https://arxiv.org/abs/2007.14492\">arxiv</a>]"
     - "Extrinsic Calibration of a 3D-LIDAR and a Camera [<a href=\"https://ieeexplore.ieee.org/document/9304750\">ieee</a>]"
     - "Systems Integration, Simulation, and Control for Autonomous Trucking [<a href=\"https://ieeexplore.ieee.org/abstract/document/9304814\">ieee</a>]"
     - "AutoCone: An OmniDirectional Robot for Lane-Level Cone Placement [<a href=\"https://ieeexplore.ieee.org/document/9304683\">ieee</a>][<a href=\"https://arxiv.org/abs/2104.14103\">arxiv</a>]"
+
 - date: 2020-05-21
   headline: "Paper in Journal of Manufacturing Systems"
   content: 
     - "Image-based flight control of unmanned aerial vehicles (UAVs) for material handling in custom manufacturing [<a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0278612520300480\">Elsevier</a>]"
+
 - date: 2020-06-30
-  headline: "2 papers accepted in IROS 2020"
+  headline: "Two papers accepted in IROS 2020"
   content: 
     - "A POMDP Treatment of Vehicle-Pedestrian Interaction: Implicit Coordination via Uncertainty-Aware Planning [<a href=\"https://ieeexplore.ieee.org/abstract/document/9341320\">ieee</a>][<a href=\"https://cse-robotics.engr.tamu.edu/dshell/papers/iros2020pedestrian.pdf\">pdf</a>]"
     - "Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration [<a href=\"https://ieeexplore.ieee.org/document/9340911\">ieee</a>][<a href=\"https://arxiv.org/abs/2007.01959\">arxiv</a>]"
+
 - date: 2020-10-05
   headline: "Jacob Hartzer defends Mater's Thesis"
   content: 
     - "Thesis Title: Collaborative Localization of Autonomous Vehicles using Ultra-Wideband Ranging [<a href=\"http://oaktrust.library.tamu.edu/handle/1969.1/192764\">oaktrust</a>]"
+
 - date: 2021-02-28
-  headline: "3 papers accepted in ICRA 2021"
+  headline: "Three papers accepted in ICRA 2021"
   content:  
     - "Path Optimization for Ground Vehicles in Off-Road Terrain [<a href=\"https://arxiv.org/abs/2101.00769\">arxiv</a>]"
     - "LiDARNet: A Boundary-Aware Domain Adaptation Model for Point Cloud Semantic Segmentation [<a href=\"https://arxiv.org/abs/2003.01174\">arxiv</a>]"
     - "RELLIS-3D Dataset: Data, Benchmarks and Analysis [<a href=\"https://arxiv.org/abs/2011.12954\">arxiv</a>]"
+
 - date: 2021-03-09
   headline: "Wael Karkoub defends Mater's Thesis"
+
 - date: 2021-06-15
-  headline: "2 papers accepted in ITSC 2021"
+  headline: "Two papers accepted in ITSC 2021"
   content:
-    - "Building a Smart Work Zone Using Roadside LiDAR"
+    - "Building a Smart Work Zone Using Roadside LiDAR [<a href=\"https://ieeexplore.ieee.org/abstract/document/9564527\">ieee</a>]"
     - "Vehicular Teamwork: Collaborative localization of Autonomous Vehicles Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration [<a href=\"https://arxiv.org/abs/2104.14106\">arxiv</a>]"
 
+- date: 2021-10-05
+  headline: "Preprints released"
+  content: 
+  - "OTTR: Off-Road Trajectory Tracking using Reinforcement Learning [<a href=\"https://arxiv.org/pdf/2110.02332.pdf\">arxiv</a>]"
+  - "G-VOM: A GPU Accelerated Voxel Off-Road Mapping System [<a href=\"https://arxiv.org/pdf/2109.13176.pdf\">arxiv</a>]"
+
+- date: 2021-09-23
+  headline: "Two papers accepted in IEEE MFI 2021"
+  content:
+    - "SemCal: Semantic LiDAR-Camera Calibration using Neural Mutual Information Estimator [<a href=\"https://ieeexplore.ieee.org/abstract/document/9591203\">ieee</a>]"
+    - "Target-free Extrinsic Calibration of a 3D-Lidar and an IMU [<a href=\"https://ieeexplore.ieee.org/abstract/document/9591180\">ieee</a>]"
+
+- date: 2021-08-23
+  headline: "Paper accepted to IEEE CASE 2021"
+  content: "Offseg: A semantic segmentation framework for off-road driving [<a href=\"https://ieeexplore.ieee.org/abstract/document/9551643\">ieee</a>][<a href=\"https://arxiv.org/pdf/2103.12417.pdf\">arxiv</a>]"
+
+- date: 2021-09-16
+  headline: "Preprint released"
+  content: "ROOAD: RELLIS Off-road Odometry Analysis Dataset [<a href=\"https://arxiv.org/abs/2109.08228\">ieee</a>]"
+
+  

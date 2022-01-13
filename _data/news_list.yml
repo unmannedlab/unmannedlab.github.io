@@ -43,23 +43,6 @@
   content:
     - "Building a Smart Work Zone Using Roadside LiDAR [<a href=\"https://ieeexplore.ieee.org/abstract/document/9564527\">ieee</a>]"
     - "Vehicular Teamwork: Collaborative localization of Autonomous Vehicles Experimental Evaluation of 3D-LIDAR Camera Extrinsic Calibration [<a href=\"https://arxiv.org/abs/2104.14106\">arxiv</a>]"
-- date: 2021-08-19
-  headline: "2 papers accepted in MFI 2021"
-  content:
-    - "SemCal: Semantic LiDAR-Camera Calibration using Neural Mutual Information Estimator"
-    - "Target-free Extrinsic Calibration of a 3D-Lidar and an IMU"
-
-- date: 2021-10-05
-  headline: "Preprints released"
-  content: 
-  - "OTTR: Off-Road Trajectory Tracking using Reinforcement Learning [<a href=\"https://arxiv.org/pdf/2110.02332.pdf\">arxiv</a>]"
-  - "G-VOM: A GPU Accelerated Voxel Off-Road Mapping System [<a href=\"https://arxiv.org/pdf/2109.13176.pdf\">arxiv</a>]"
-
-- date: 2021-09-23
-  headline: "Two papers accepted in IEEE MFI 2021"
-  content:
-    - "SemCal: Semantic LiDAR-Camera Calibration using Neural Mutual Information Estimator [<a href=\"https://ieeexplore.ieee.org/abstract/document/9591203\">ieee</a>]"
-    - "Target-free Extrinsic Calibration of a 3D-Lidar and an IMU [<a href=\"https://ieeexplore.ieee.org/abstract/document/9591180\">ieee</a>]"
 
 - date: 2021-08-23
   headline: "Paper accepted to IEEE CASE 2021"
@@ -68,5 +51,17 @@
 - date: 2021-09-16
   headline: "Preprint released"
   content: "ROOAD: RELLIS Off-road Odometry Analysis Dataset [<a href=\"https://arxiv.org/abs/2109.08228\">ieee</a>]"
+
+- date: 2021-09-23
+  headline: "Two papers accepted in IEEE MFI 2021"
+  content:
+    - "SemCal: Semantic LiDAR-Camera Calibration using Neural Mutual Information Estimator [<a href=\"https://ieeexplore.ieee.org/abstract/document/9591203\">ieee</a>]"
+    - "Target-free Extrinsic Calibration of a 3D-Lidar and an IMU [<a href=\"https://ieeexplore.ieee.org/abstract/document/9591180\">ieee</a>]"
+
+- date: 2021-10-05
+  headline: "Preprints released"
+  content: 
+  - "OTTR: Off-Road Trajectory Tracking using Reinforcement Learning [<a href=\"https://arxiv.org/pdf/2110.02332.pdf\">arxiv</a>]"
+  - "G-VOM: A GPU Accelerated Voxel Off-Road Mapping System [<a href=\"https://arxiv.org/pdf/2109.13176.pdf\">arxiv</a>]"
 
   

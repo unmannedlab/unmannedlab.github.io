@@ -2,7 +2,7 @@
 layout: profile
 title: Subodh Mishra
 image: subodh.jpeg
-type: PhD
+type: PhD Candidate
 show_profile: true
 homepage: 
 github : https://github.com/SubMishMar

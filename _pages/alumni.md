@@ -7,6 +7,9 @@ permalink: /alumni/
 <h1 class="display-4">{{ page.title }}</h1>
 
 ## Current Affilations follow
+- Amir Darwesh (Embark Trucks)
+- Wael Karkoub (Built Robotics)
+- Keith Sponsler (Entrepreneur)
 - Grayson Woods (Applied Research Laboratories)
 - Sai Vemprala (Autonomous Systems group at Microsoft)
 - Blake Karwoski (M.S. Robotics University of Michigan)

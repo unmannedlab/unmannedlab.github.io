@@ -2,7 +2,7 @@
 layout: profile
 title: Jacob Hartzer
 image: jacob.jpeg
-type: PhD
+type: PhD Candidate
 show_profile: true
 homepage: https://jhartzer.github.io/
 github : https://github.com/JHartzer

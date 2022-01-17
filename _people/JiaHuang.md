@@ -1,8 +1,9 @@
 ---
 layout: profile
-title: Keith Sponsler
-image: keith.jpeg
-type: PhD
+title: Jia Huang
+image: none.jpeg
+type: PhD Candidate
+show_profile: false
 homepage: 
 github : 
 g_scholar: 

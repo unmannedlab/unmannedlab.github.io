@@ -2,7 +2,7 @@
 layout: profile
 title: Peng Jiang
 image: none.jpeg
-type: PhD
+type: PhD Candidate
 show_profile: false
 homepage: 
 github : 

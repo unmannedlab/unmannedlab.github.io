@@ -2,7 +2,7 @@
 layout: profile
 title: Garrison Neel
 image: garrison.jpeg
-type: PhD
+type: PhD Candidate
 show_profile: true
 homepage: 
 github : http://github.com/neelg1193

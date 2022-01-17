@@ -1,10 +1,8 @@
 ---
 layout: profile
-title: Akhil Nagariya
-image: akhil.jpeg
+title: Keith Sponsler
+image: keith.jpeg
 type: PhD Candidate
-show_profile: true
-redirect_to: http://people.tamu.edu/~akhil.nagariya/index.html
 homepage: 
 github : 
 g_scholar: 

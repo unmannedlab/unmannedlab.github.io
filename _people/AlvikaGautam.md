@@ -1,10 +1,9 @@
 ---
 layout: profile
-title: Akhil Nagariya
-image: akhil.jpeg
-type: PhD Candidate
-show_profile: true
-redirect_to: http://people.tamu.edu/~akhil.nagariya/index.html
+title: Alvika Gautam
+image: AlvikaGautam.jpeg
+type: Post-Doctoral Researcher
+show_profile: false
 homepage: 
 github : 
 g_scholar: 

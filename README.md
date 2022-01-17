@@ -43,7 +43,7 @@ EX:
 layout: profile
 title: Amir Darwesh
 image: amir.jpeg
-type: M.S.
+type: M.S. Student
 show_profile: false
 homepage: http://amirdarwesh.com
 github: http://github.com/amirx96

@@ -1,8 +1,8 @@
 ---
 layout: profile
 title: George Chustz
-image: none.jpeg
-type: PhD
+image: GeorgeChustz.jpg
+type: PhD Candidate
 show_profile: false
 homepage: 
 github : 

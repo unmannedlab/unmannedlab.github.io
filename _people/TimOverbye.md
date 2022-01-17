@@ -1,8 +1,8 @@
 ---
 layout: profile
 title: Tim Overbye
-image: none.jpeg
-type: PhD
+image: TimOverbye.jpg
+type: PhD Candidate
 show_profile: false
 homepage: 
 github : 

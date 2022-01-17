@@ -25,52 +25,26 @@ permalink: /people/
 
 <div class="flex-container">
 {% for people in site.people %}
-    {% if people.type == "PhD" %}
-        {% if people.show_profile %}
+    {% if people.show_profile %}
         <div class="person">
-            <a class="person-thumbnail" style="background-image: url(images/{{people.image}});" href="{{people.url}}"></a>
+            <a class="person-thumbnail" style="background-image: url(images/{{people.image}}); background-size: 200px 200px;" href="{{people.url}}"></a>
             <div class="person-title">
                 <h2 class="person-name"><a href="{{people.url}}">{{people.title}}</a></h2>
-                <p>{{people.type}} Candidate</p>
+                <p>{{people.type}}</p>
             </div>
         </div>
-        {% else %}
+    {% else %}
         <div class="person">
             <img src="images/{{people.image}}" class="person-thumbnail">
             <div class="person-title">
                 <h2 class="person-name">{{people.title}}</h2>
-                <p>{{people.type}} Candidate</p>
+                <p>{{people.type}}</p>
             </div>
         </div>
-        {% endif %}
     {% endif %}
 {% endfor %}
 </div>
 
-
-<div class="flex-container">
-{% for people in site.people %}
-    {% if people.type == "M.S." %}
-        {% if people.show_profile %}
-        <div class="person">
-            <a class="person-thumbnail" style="background-image: url(images/{{people.image}});" href="{{people.url}}"></a>
-            <div class="person-title">
-                <h2 class="person-name"><a href="{{people.url}}">{{people.title}}</a></h2>
-                <p>{{people.type}} Candidate</p>
-            </div>
-        </div>
-        {% else %}
-        <div class="person">
-            <img src="images/{{people.image}}" class="person-thumbnail">
-            <div class="person-title">
-                <h2 class="person-name">{{people.title}}</h2>
-                <p>{{people.type}} Candidate</p>
-            </div>
-        </div>
-        {% endif %}
-    {% endif %}
-{% endfor %}
-</div>
 
 <br>
 <h1><a href="/alumni/"> Alumni & Former Students </a></h1>

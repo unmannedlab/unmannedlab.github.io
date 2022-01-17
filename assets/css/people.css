@@ -63,8 +63,8 @@ figure figcaption {
 }
 
 .person .person-thumbnail {
-    min-height: 200px;
-    min-width: 200px;
+    height: 200px;
+    width: 200px;
     -webkit-background-size: cover;
             background-size: cover;
     background-position: 50% 00%;

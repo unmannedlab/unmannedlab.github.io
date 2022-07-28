@@ -119,3 +119,20 @@ Once built, run the following command to serve the site to a local host (most li
 ```bash
 bundle exec jekyll serve --watch
 ```
+
+## Test with Docker Image
+It is also possible to build the website using the jekyll docker image. To do this, first build the docker image
+```bash
+docker build . -t unmanned_website
+```
+
+Then run jekyll build in the image after mounting the current directory
+```shell
+docker run --rm --volume="$PWD:/srv/jekyll" -it unmanned_website jekyll build
+```
+
+Finally, serve the website with the current directory mounted 
+and the port mapped to [localhost:4000](http://localhost:4000/)
+```shell
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 -it unmanned_website jekyll serve --watch
+```

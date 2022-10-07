@@ -7,6 +7,7 @@ permalink: /alumni/
 <h1 class="display-4">{{ page.title }}</h1>
 
 ## Current Affilations follow
+- Subodh Mishra (Ford Motor Company)
 - Amir Darwesh (Embark Trucks)
 - Wael Karkoub (Built Robotics)
 - Keith Sponsler (Entrepreneur)
@@ -17,11 +18,11 @@ permalink: /alumni/
 - Quang Le (SeaKeeper, TX)
 - Dustin Hodges (Master of Public Service and Administration, Texas A&M)
 - Austin Burch (Above Robotics, CA)
-- Aravindhan K Krishnan (LightHouse, CA)
-- Yucong Lin (Ford Motors)
+- Aravindhan K Krishnan (Amazon)
+- Yucong Lin (Woven Planet)
 - Kirk Bennett, Boeing / SESE
 - Amanda Urquiza (Lockheed Martin)
-- Ben Stinnett (Auro Robotics)
+- Ben Stinnett (Embark Trucks)
 - Colin Ho (PhD Student at UC Berkeley)
 - Patrick McGarey (PhD Student at University of Toronto)
 - Anchit Dhar

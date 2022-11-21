@@ -1,5 +1,5 @@
 # unmannedlab.github.io
-### Warning, Live site! Any changes commited and pushed will deploy instantly. 
+### Warning, Live site! Any changes committed and pushed will deploy instantly. 
 
 # Directory Structure
 
@@ -34,7 +34,7 @@ To edit your page/photo, navigate to the `_people` folder. If you'd like to add 
 
 ## About Me and Current Research 
 
-Update your profile by editing `_people/YourName.md`. You can add links to your home page, girhub, google scholar, and linkedin.
+Update your profile by editing `_people/YourName.md`. You can add links to your home page, github, google scholar, and linkedin.
 
 EX: 
 

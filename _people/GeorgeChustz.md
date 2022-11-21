@@ -1,7 +1,7 @@
 ---
 layout: profile
 title: George Chustz
-image: GeorgeChustz.jpg
+image: george.jpeg
 type: PhD Candidate
 show_profile: false
 homepage: 

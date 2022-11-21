@@ -152,6 +152,13 @@ pre {
     max-width: 640px;
     margin: auto;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Grid overrides */
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
 .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
@@ -187,6 +194,32 @@ pre {
     }
 }
 
+// Video iframe wrapper
+.iframe-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.iframe-embed-wrapper {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.iframe-embed-responsive-16by9{
+    width: 50%;
+    padding-bottom: 28.125%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /**

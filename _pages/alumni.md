@@ -6,7 +6,7 @@ permalink: /alumni/
 
 <h1 class="display-4">{{ page.title }}</h1>
 
-## Current Affilations follow
+## Former Students (Current Affiliations Follow)
 - Subodh Mishra (Ford Motor Company)
 - Amir Darwesh (Embark Trucks)
 - Wael Karkoub (Built Robotics)
@@ -34,7 +34,6 @@ permalink: /alumni/
 - Evan Olson
 
 ## Visiting Students
-- Alvika Gautam, IIIT Delhi, India
 - Carlos Sampedro Pérez, Universidad Politécnica de Madrid (UPM)
 - Adrián Carrio, Universidad Politécnica de Madrid (UPM)
 - Changhong Fu, Universidad Politécnica de Madrid (UPM)

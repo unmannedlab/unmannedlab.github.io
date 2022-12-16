@@ -30,7 +30,7 @@ In general, you should only be editing the `_research` and `_people` folder. Bot
 ## Update Photo
 To edit your page/photo, navigate to the `_people` folder. If you'd like to add or change your image, upload a photo to the `_people/images` folder. It will be forced to be 200x200, so it looks best if that is the resolution. 
 
-👮 If you did not have a photo already, be sure to edit the front matter in `_people/YourName.md`, where it says `image: none.jpeg` to `image: name.jpeg`. 
+If you did not have a photo already, be sure to edit the front matter in `_people/YourName.md`, where it says `image: none.jpeg` to `image: name.jpeg`. 
 
 ## About Me and Current Research 
 
@@ -60,7 +60,7 @@ Lorem ipsum
 Lorem ipsum
 ```
 
-👮  **Note** Your home page will not display until the `show_profile: false` flag is changed to true. Currently, everyone's is set to false because it's lorem ipsum filler text. ❗**Do not change this to true unless you have removed the lorem ipsum with your own stuff**❗ 
+**Note** Your home page will not display until the `show_profile: false` flag is changed to true. Currently, everyone's is set to false because it's lorem ipsum filler text. **Do not change this to true unless you have removed the lorem ipsum with your own stuff**
 
 
 # Research
@@ -73,7 +73,7 @@ To add a research post, create a markdown file in `research/_posts/` following t
 
 Add images to `assets/images/Your_Folder/Image_file.png`. You can use a thumbnail for your post in addition to other pictures within the markdown file of your post. 
 
-👮 **Note** Your research can either be an excerpt, or a full post. If your research is more than 75 words, then it is automatically converted from a excerpt to a full post. 
+**Note** Your research can either be an excerpt, or a full post. If your research is more than 75 words, then it is automatically converted from a excerpt to a full post. 
 
 
 ## Markdown File
@@ -93,7 +93,7 @@ thumbnail: /assets/images/lidar/sign_detection_leadin.png
 One required ability for autonomous vehicles is to correctly identify street signs. This project investigates the feasibility of using a LIDAR sensor to detect, and classify signs for autonomous vehicles. Current popular methods for sign detection are vision based, however, in case of low visibility, a LIDAR detection method can be used instead.
 ```
 
-👮 **Note** You should at a minimum have a thumbnail, and an excerpt of your research. Multiple authors must be put in brackets.
+**Note** You should at a minimum have a thumbnail, and an excerpt of your research. Multiple authors must be put in brackets.
 
 # News List
 

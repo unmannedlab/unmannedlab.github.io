@@ -13,6 +13,14 @@ Kasi Viswanath<sup>1</sup>, Jason M. Gregory<sup>2</sup>, Shaunak Kolhe<sup>1</s
 <a href="#">[Paper]</a> <a href="https://huggingface.co/datasets/anony-008/offroad-global-nav">[Dataset]</a>
 </p>
 
+<style>
+table.res-table { border-collapse: collapse; margin: 1em auto; font-size: 0.9em; }
+table.res-table th, table.res-table td { border: 1px solid #ccc; padding: 4px 10px; text-align: center; white-space: nowrap; }
+table.res-table thead th { background: #f3f3f3; }
+
+.table-wrap { overflow-x: auto; }
+</style>
+
 ## News
 * **October 2026:** Accepted to IEEE Robotics and Automation Letters (RA-L).
 
@@ -24,12 +32,14 @@ Autonomous navigation across large off-road environments remains a challenging p
 ## Dataset
 Each scene combines four co-registered, geo-referenced modalities. Candidate sites were cross-referenced against the OpenStreetMap public GPS trace corpus, and only regions where all modalities were jointly available with sufficient trace coverage were retained. Traces were verified against satellite imagery and filtered by speed to remove stationary segments and non-vehicular activity such as walking. **67.5%** of the retained traversed distance lies more than 5 m from any mapped OSM road or trail, so the traces carry information beyond the vector map.
 
-Modality | Source | Format | Description
------------- | ------------- | ------------- | ---------------------------------
-Satellite imagery | [ArcGIS World Imagery](https://www.arcgis.com/) | GeoTIFF | 30 cm/pixel RGB showing vegetation, trails, water bodies, and terrain
-Aerial LiDAR | [USGS 3DEP](https://www.usgs.gov/3d-elevation-program) | LAZ | 5 to 27 points/m², 10 cm vertical accuracy, elevation, slope, and intensity
-Vector map | [OpenStreetMap](https://www.openstreetmap.org/) | OSM XML | Highways, trails, and waterways used as weak semantic priors
-Human driving | [OSM GPS traces](https://www.openstreetmap.org/traces) | KML | Driven trajectories used as implicit traversability supervision
+<div class="table-wrap"><table class="res-table">
+<thead><tr><th>Modality</th><th>Source</th><th>Format</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Satellite imagery</td><td><a href="https://www.arcgis.com/">ArcGIS World Imagery</a></td><td>GeoTIFF</td><td style="white-space:normal">30 cm/pixel RGB showing vegetation, trails, water bodies, and terrain</td></tr>
+<tr><td>Aerial LiDAR</td><td><a href="https://www.usgs.gov/3d-elevation-program">USGS 3DEP</a></td><td>LAZ</td><td style="white-space:normal">5 to 27 points/m², 10 cm vertical accuracy, elevation, slope, and intensity</td></tr>
+<tr><td>Vector map</td><td><a href="https://www.openstreetmap.org/">OpenStreetMap</a></td><td>OSM XML</td><td style="white-space:normal">Highways, trails, and waterways used as weak semantic priors</td></tr>
+<tr><td>Human driving</td><td><a href="https://www.openstreetmap.org/traces">OSM GPS traces</a></td><td>KML</td><td style="white-space:normal">Driven trajectories used as implicit traversability supervision</td></tr>
+</tbody></table></div>
 
 ### Statistics
 * **Scenes:** 299 geographically diverse locations across the United States
@@ -61,13 +71,15 @@ Anchors and priors are weighted an order of magnitude below the corridor loss. T
 ## Benchmark
 A costmap is evaluated by how closely the paths it induces reproduce driven reference trajectories. For each costmap, Yen's algorithm generates four candidate A\* paths, and the candidate with the smallest discrete Fréchet distance *d<sub>F</sub>* to the driven path is retained. Results are over **356 trajectories** (average length 412 m) from **20 held-out scenes**, including TartanDrive 2.0.
 
-Costmap | *d<sub>F</sub>* (m) ↓ | *r<sub>c</sub>* (→ 1) | *r<sub>d</sub>* (→ 1)
------------- | ------------- | ------------- | -------------
-Height map | 108.4 ± 18.2 | 0.85 ± 0.11 | 0.91 ± 0.06
-[Trailblazer](https://arxiv.org/abs/2505.09739) | 91.6 ± 22.7 | 0.71 ± 0.09 | 0.81 ± 0.08
-OVerSeeC | 77.5 ± 20.1 | 0.23 ± 0.14 | 0.92 ± 0.06
-Geometric (tuned per site) | 68.4 ± 17.8 | 0.78 ± 0.09 | 0.86 ± 0.09
-**Ours** | **61.3 ± 14.3** | 0.93 ± 0.05 | 0.89 ± 0.05
+<div class="table-wrap"><table class="res-table">
+<thead><tr><th>Costmap</th><th><i>d<sub>F</sub></i> (m) &darr;</th><th><i>r<sub>c</sub></i> (&rarr; 1)</th><th><i>r<sub>d</sub></i> (&rarr; 1)</th></tr></thead>
+<tbody>
+<tr><td>Height map</td><td>108.4 &plusmn; 18.2</td><td>0.85 &plusmn; 0.11</td><td>0.91 &plusmn; 0.06</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2505.09739">Trailblazer</a></td><td>91.6 &plusmn; 22.7</td><td>0.71 &plusmn; 0.09</td><td>0.81 &plusmn; 0.08</td></tr>
+<tr><td>OVerSeeC</td><td>77.5 &plusmn; 20.1</td><td>0.23 &plusmn; 0.14</td><td>0.92 &plusmn; 0.06</td></tr>
+<tr><td>Geometric (tuned per site)</td><td>68.4 &plusmn; 17.8</td><td>0.78 &plusmn; 0.09</td><td>0.86 &plusmn; 0.09</td></tr>
+<tr><td><b>Ours</b></td><td><b>61.3 &plusmn; 14.3</b></td><td>0.93 &plusmn; 0.05</td><td>0.89 &plusmn; 0.05</td></tr>
+</tbody></table></div>
 
 *r<sub>c</sub>* is the ratio of mean planned-path cost to mean driven-path cost, and *r<sub>d</sub>* is the ratio of path lengths. Both are computed within each costmap and serve as diagnostics. Only *d<sub>F</sub>* ranks methods across costmaps. Our map attains the lowest *d<sub>F</sub>*, 10% below the per-site tuned geometric baseline, and wins on 62.5% of individual trajectories (paired Wilcoxon, *p* < 10<sup>-3</sup>).
 
@@ -97,15 +109,20 @@ Experiments were run at a **Levee site** with a 250 m embankment, an adjacent la
 <img src="/assets/images/offroad_global_nav/test_sites.jpg" class="center">
 
 ### Results
-Route | Human (m) | LRP (m) | SRP only (m) | LRP interventions | SRP interventions
------------- | ------------- | ------------- | ------------- | ------------- | -------------
-1 | 320 | 335 | 360 | 0 | 3
-2 | 379 | 386 | 392 | 1 | 2
-3 | 765 | 810 | 901 | 1 | 8
-4 | 195 | 220 | 236 | 0 | 1
-5 | 393 | 425 | — | 2 | —
-6 | 1680 | 1714 | — | 3 | —
-7 | 1680 | 1956 | — | 1 | —
+<div class="table-wrap"><table class="res-table">
+<thead>
+<tr><th rowspan="2">Route</th><th colspan="3">Distance (m)</th><th colspan="2">Interventions</th></tr>
+<tr><th>Human</th><th>LRP</th><th>SRP only</th><th>LRP</th><th>SRP only</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>320</td><td>335</td><td>360</td><td>0</td><td>3</td></tr>
+<tr><td>2</td><td>379</td><td>386</td><td>392</td><td>1</td><td>2</td></tr>
+<tr><td>3</td><td>765</td><td>810</td><td>901</td><td>1</td><td>8</td></tr>
+<tr><td>4</td><td>195</td><td>220</td><td>236</td><td>0</td><td>1</td></tr>
+<tr><td>5</td><td>393</td><td>425</td><td>&ndash;</td><td>2</td><td>&ndash;</td></tr>
+<tr><td>6</td><td>1,680</td><td>1,714</td><td>&ndash;</td><td>3</td><td>&ndash;</td></tr>
+<tr><td>7</td><td>1,680</td><td>1,956</td><td>&ndash;</td><td>1</td><td>&ndash;</td></tr>
+</tbody></table></div>
 
 SRP-only runs were not attempted on Routes 5 to 7 because of safety risk near quarry edges and over long horizons. On the four routes where both were run, LRP paths were **5.5%** longer than the human baseline versus **13.9%** for SRP only. LRP needed **85% fewer** interventions (2 vs. 14), about one per 876 m against one per 135 m for SRP. Across all seven routes, LRP overhead averaged 7.4%. The planner also produced distinct feasible routes for the same start and goal (Routes 1 & 2, Routes 6 & 7), and replanned around an unmapped sand heap on Route 6 without further intervention.
 

@@ -48,6 +48,8 @@ Each scene combines four co-registered, geo-referenced modalities. Candidate sit
 * **Terrain:** deserts, grasslands, evergreen forests, mountains, quarries, and mines
 * **Seasonal variation:** acquisition spread across seasons to capture changes in vegetation and surface conditions
 
+<img src="/assets/images/offroad_global_nav/dataset.png" class="center">
+
 ### Getting Started
 ```python
 from datasets import load_dataset
